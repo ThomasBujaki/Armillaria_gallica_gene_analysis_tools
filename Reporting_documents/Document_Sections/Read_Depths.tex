@@ -1,12 +1,76 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%	Read Depths
+% Latex Report for Read Depths and Indels
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{report}
+%\documentclass[../main.tex]{subfiles}
 
-\documentclass[../main.tex]{subfiles}
+\usepackage{subfiles}
+\usepackage{lipsum}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{titlesec}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{titlesec}
+\usepackage{titletoc}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{mathtools}  
+\usepackage{amsmath}
+\usepackage{tocbibind}
+\usepackage{cite}
+
+
+\titlecontents{chapter}[1.05em]{\bigskip}%
+{\contentslabel[\MakeUppercase{\thecontentslabel}]{1em}\enspace\textsc}%numbered\contentslabel
+{\hspace*{-1em}\textsc}%numberless
+{\hfill\contentspage}%
+%
+\titlecontents{section}[1.6em]{\smallskip}%
+{\thecontentslabel.\enspace}%numbered
+{}%numberless
+{\titlerule*[1pc]{.}\contentspage}%
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{}{0pt}{\Huge}
+\titlespacing*{\chapter} {0pt}{20pt}{40pt}
+
+\setcounter{tocdepth}{1}
+
+
+% Title Page
+\title{TITLE}
+\author{Thomas Bujaki and Kassandra Dickson}
+\date{\parbox{\linewidth}{\centering%
+		\today\endgraf\bigskip
+		Directed Studies\endgraf\medskip
+		Department of Biology\endgraf
+		Carleton University}}
+
+\titleformat{\chapter}[display]
+{\normalfont\Large\filcenter\sffamily}
+{\vspace*{\fill}
+	\titlerule[1pt]%
+	\vspace{1pt}%
+	\titlerule
+	\vspace{1pc}%
+	\LARGE\MakeUppercase{\chaptertitlename}~\thechapter}
+{1pc}
+{\titlerule\Huge}
+[\vspace*{\fill}\newpage]
 
 \begin{document}
+	
+	\maketitle
+	\pagenumbering{roman}
+	\renewcommand{\thechapter}{\roman{chapter}}
+	\cleardoublepage
+	\setcounter{chapter}{1}
+	\renewcommand{\thechapter}{\arabic{chapter}}
+	\pagenumbering{arabic}
+	
 \noindent
 test test
 \end{document}
+
