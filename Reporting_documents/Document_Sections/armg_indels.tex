@@ -1,0 +1,72 @@
+%\documentclass[../main.tex]{subfiles}
+\documentclass{report}
+
+\usepackage{pdflscape}
+\usepackage{multirow}
+\usepackage{longtable}
+ 
+\begin{document}
+\textbf{Indels in \textit{Armillaria gallica}}
+
+Through previous studies on the \textit{Armillaria gallica} fungus, several strains were sequenced in Illuminia. These strains were analyzed using samtools and an additional package called bcftools. 
+
+Through the use of bcftools, labels were added to the output which indicated various other information about the indel found such as: maximum number of reads supporting an indel, raw read depth, the number of reads that support the indel and other information.
+
+
+\begin{figure}
+\begin{center}
+	\begin{tabular}{ |c|c|c|c|c|c|c| } 
+		\hline
+		Strain No. & Scaffold No. & Location & No. of Reads Supporting & Raw Read Depth \\
+		\hline
+		\multirow{3}{4em}{Ar159} & 1 & 7762 & 41 & 116 \\ 
+		& 1 & 10784 & 28 & 100  \\ 
+		& 1 & 16154 & 3 & 85 \\ 
+		\hline
+		\multirow{3}{4em}{Ar170} & 1 & 7762 & 73 & 222 \\ 
+		& 1 & 10784 & 61 & 194  \\ 
+		& 1 & 12340 & 72 & 193 \\ 
+		\hline
+		\multirow{3}{4em}{Ar174} & 1 & 7762 & 63 & 201 \\ 
+		& 1 & 9593 & 72 & 218  \\ 
+		& 1 & 10784 & 45 & 184 \\ 
+		\hline
+		\multirow{3}{4em}{Ar175} & 1 & 7762 & 47 & 141 \\ 
+		& 1 & 10784 & 28 & 108  \\ 
+		& 1 & 12340 & 35 & 102 \\ 
+		\hline
+		\multirow{3}{4em}{Ar176} & 1 & 7762 & 39 & 141 \\ 
+		& 1 & 9593 & 43 & 129  \\ 
+		& 1 & 10784 & 33 & 115 \\ 
+		\hline
+		\multirow{3}{4em}{Ar179} & 1 & 7762 & 63 & 193 \\ 
+		& 1 & 9593 & 64 & 205  \\ 
+		& 1 & 10784 & 50 & 195 \\ 
+		\hline
+		\multirow{3}{4em}{Ar188} & 1 & 7762 & 17 & 62 \\ 
+		& 1 & 10784 & 11 & 47  \\ 
+		& 1 & 12340 & 24 & 54 \\ 
+		\hline
+		\multirow{3}{4em}{Ar194} & 1 & 7762 & 35 & 133 \\ 
+		& 1 & 10784 & 32 & 105  \\ 
+		& 1 & 12340 & 35 & 110 \\ 
+		\hline
+		\multirow{3}{4em}{Ar196} & 1 & 7762 & 72 & 224 \\ 
+		& 1 & 10784 & 53 & 169  \\ 
+		& 1 & 12340 & 72 & 192 \\ 
+		\hline
+		\multirow{3}{4em}{Ar201} & 1 & 7762 & 38 & 110 \\ 
+		& 1 & 10784 & 44 & 116  \\ 
+		& 1 & 12340 & 50 & 102 \\ 
+		\hline
+		\multirow{3}{4em}{Ar213} & 1 & 7762 & 76 & 220 \\ 
+		& 1 & 9593 & 63 & 196  \\ 
+		& 1 & 10784 & 48 & 188 \\ 
+		\hline
+	\end{tabular}
+\end{center}
+\label{fig:img1}
+\caption{A summary table of the first three indels found in each of the strains which includes the scaffold number, the location at which the indel is found, the number of reads that support that indel and the raw read depth}
+\end{figure}
+
+\end{document}
