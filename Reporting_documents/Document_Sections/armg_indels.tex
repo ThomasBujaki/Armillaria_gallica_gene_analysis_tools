@@ -10,7 +10,10 @@ Through the use of bcftools, labels were added to the output which indicated var
 
 \begin{table}[H]
 \begin{center}
-	\captionof{table}[Summary Indel Table]{A summary table of the first three indels found in each of the strains which includes the scaffold number, the location at which the indel is found, the number of reads that support that indel, and the raw read depth}
+	\vspace{-1.5cm}
+	\begin{singlespace}
+		\captionof{table}[Summary Indel Table]{A summary table of the first three indels found in each of the strains which includes the scaffold number, the location at which the indel is found, the number of reads that support that indel, and the raw read depth\\} \label{tab:sum_indel}
+	\scalebox{.9}{
 	\begin{tabular}{ |c|c|c|c|c|c|c| } 
 		\hline
 		Strain No. & Scaffold No. & Location & No. of Reads Supporting & Raw Read Depth \\
@@ -30,6 +33,7 @@ Through the use of bcftools, labels were added to the output which indicated var
 		\multirow{3}{4em}{Ar142} & 1 & 7762 & 63 & 189 \\
 		& 1 & 10784 & 55 & 186 \\
 		& 1 & 16154 & 5 & 125 \\
+		\hline
 		\multirow{3}{4em}{Ar159} & 1 & 7762 & 41 & 116 \\ 
 		& 1 & 10784 & 28 & 100  \\ 
 		& 1 & 16154 & 3 & 85 \\ 
@@ -75,6 +79,9 @@ Through the use of bcftools, labels were added to the output which indicated var
 		& 1 & 10784 & 48 & 188 \\ 
 		\hline
 	\end{tabular}
+
+	}
+	\end{singlespace}
 \end{center}
 \end{table}
 
