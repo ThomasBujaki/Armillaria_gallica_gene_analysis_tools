@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  14 JUN 2019 11:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  21 JUN 2019 11:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,13 +426,42 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks28
 \@floatcapt=\box32
 )
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen145
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip64
+\LTright=\skip65
+\LTpre=\skip66
+\LTpost=\skip67
+\LTchunksize=\count122
+\LTcapwidth=\dimen146
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count123
+\LT@rows=\count124
+\c@LT@tables=\count125
+\c@LT@chunks=\count126
+\LT@p@ftn=\toks29
+)
 (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks29
-\verbatim@line=\toks30
+\every@verbatim=\toks30
+\verbatim@line=\toks31
 \verbatim@in@stream=\read1
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
@@ -441,43 +470,43 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count122
-\c@Blindtext=\count123
-\c@blind@countparstart=\count124
-\blind@countxx=\count125
-\blindtext@numBlindtext=\count126
-\blind@countyy=\count127
-\c@blindlist=\count128
-\c@blindlistlevel=\count129
-\c@blindlist@level=\count130
-\blind@listitem=\count131
-\c@blind@listcount=\count132
-\c@blind@levelcount=\count133
-\blind@mathformula=\count134
-\blind@Mathformula=\count135
-\c@blind@randomcount=\count136
-\c@blind@randommax=\count137
-\c@blind@pangramcount=\count138
-\c@blind@pangrammax=\count139
+\c@blindtext=\count127
+\c@Blindtext=\count128
+\c@blind@countparstart=\count129
+\blind@countxx=\count130
+\blindtext@numBlindtext=\count131
+\blind@countyy=\count132
+\c@blindlist=\count133
+\c@blindlistlevel=\count134
+\c@blindlist@level=\count135
+\blind@listitem=\count136
+\c@blind@listcount=\count137
+\c@blind@levelcount=\count138
+\blind@mathformula=\count139
+\blind@Mathformula=\count140
+\c@blind@randomcount=\count141
+\c@blind@randommax=\count142
+\c@blind@pangramcount=\count143
+\c@blind@pangrammax=\count144
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `colorlinks' set `true' on input line 45.
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -532,19 +561,19 @@ e
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring ON on input line 68.
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring ON on input line 72.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count140
+\c@section@level=\count145
 )
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
 
 (./main.out) (./main.out)
 \@outlinefile=\write4
@@ -553,30 +582,22 @@ LaTeX Info: Redefining \nameref on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen145
-\scratchbox=\box34
-\nofMPsegments=\count142
-\nofMParguments=\count143
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen146
-\MPnumerator=\count145
-\makeMPintoPDFobject=\count146
-\everyMPtoPDFconversion=\toks32
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+\scratchcounter=\count146
+\scratchdimen=\dimen147
+\scratchbox=\box38
+\nofMPsegments=\count147
+\nofMParguments=\count148
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count149
+\MPscratchDim=\dimen148
+\MPnumerator=\count150
+\makeMPintoPDFobject=\count151
+\everyMPtoPDFconversion=\toks33
 ) (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
-
-[1
+ [1
 Non-PDF special ignored!
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
@@ -603,343 +624,358 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \openout7 = `main.lot'.
 
 
-[3] (./Document_Sections/average_read_depths.tex
-<Figures/Ar73_collected_no_comma_read_depth.pdf, id=53, 505.89pt x 505.89pt>
+[3] (./Document_Sections/average_read_depths.tex [1pdfTeX warning (ext4): desti
+nation with the same identifier (name{table.1}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.50 \newpage
+             ]
+<Figures/Ar73_collected_no_comma_read_depth.pdf, id=66, 505.89pt x 505.89pt>
 File: Figures/Ar73_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar73_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar73_collected_no_comma_read_depth.pdf used on
- input line 52.
+ input line 54.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar73_collected_no_comma_count.pdf, id=54, 505.89pt x 505.89pt>
+<Figures/Ar73_collected_no_comma_count.pdf, id=67, 505.89pt x 505.89pt>
 File: Figures/Ar73_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar73_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar73_collected_no_comma_count.pdf used on inpu
-t line 53.
+t line 55.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar109_collected_no_comma_read_depth.pdf, id=55, 505.89pt x 505.89pt>
+<Figures/Ar109_collected_no_comma_read_depth.pdf, id=68, 505.89pt x 505.89pt>
 File: Figures/Ar109_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar109_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar109_collected_no_comma_read_depth.pdf used o
-n input line 54.
+n input line 56.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar109_collected_no_comma_count.pdf, id=56, 505.89pt x 505.89pt>
+<Figures/Ar109_collected_no_comma_count.pdf, id=69, 505.89pt x 505.89pt>
 File: Figures/Ar109_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar109_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar109_collected_no_comma_count.pdf used on inp
-ut line 55.
+ut line 57.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar119_collected_no_comma_read_depth.pdf, id=57, 505.89pt x 505.89pt>
+<Figures/Ar119_collected_no_comma_read_depth.pdf, id=70, 505.89pt x 505.89pt>
 File: Figures/Ar119_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar119_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar119_collected_no_comma_read_depth.pdf used o
-n input line 56.
+n input line 58.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar119_collected_no_comma_count.pdf, id=58, 505.89pt x 505.89pt>
+<Figures/Ar119_collected_no_comma_count.pdf, id=71, 505.89pt x 505.89pt>
 File: Figures/Ar119_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar119_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar119_collected_no_comma_count.pdf used on inp
-ut line 57.
+ut line 59.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-
-LaTeX Warning: Float too large for page by 61.28517pt on input line 61.
-
-<Figures/Ar142_collected_no_comma_read_depth.pdf, id=59, 505.89pt x 505.89pt>
+<Figures/Ar142_collected_no_comma_read_depth.pdf, id=72, 505.89pt x 505.89pt>
 File: Figures/Ar142_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar142_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar142_collected_no_comma_read_depth.pdf used o
-n input line 64.
+n input line 67.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar142_collected_no_comma_count.pdf, id=60, 505.89pt x 505.89pt>
+<Figures/Ar142_collected_no_comma_count.pdf, id=73, 505.89pt x 505.89pt>
 File: Figures/Ar142_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar142_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar142_collected_no_comma_count.pdf used on inp
-ut line 65.
+ut line 68.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar159_collected_no_comma_read_depth.pdf, id=61, 505.89pt x 505.89pt>
+<Figures/Ar159_collected_no_comma_read_depth.pdf, id=74, 505.89pt x 505.89pt>
 File: Figures/Ar159_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar159_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar159_collected_no_comma_read_depth.pdf used o
-n input line 66.
+n input line 69.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar159_collected_no_comma_count.pdf, id=62, 505.89pt x 505.89pt>
+<Figures/Ar159_collected_no_comma_count.pdf, id=75, 505.89pt x 505.89pt>
 File: Figures/Ar159_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar159_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar159_collected_no_comma_count.pdf used on inp
-ut line 67.
+ut line 70.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar170_collected_no_comma_read_depth.pdf, id=63, 505.89pt x 505.89pt>
+<Figures/Ar170_collected_no_comma_read_depth.pdf, id=76, 505.89pt x 505.89pt>
 File: Figures/Ar170_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar170_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar170_collected_no_comma_read_depth.pdf used o
-n input line 68.
+n input line 71.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar170_collected_no_comma_count.pdf, id=64, 505.89pt x 505.89pt>
+<Figures/Ar170_collected_no_comma_count.pdf, id=77, 505.89pt x 505.89pt>
 File: Figures/Ar170_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar170_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar170_collected_no_comma_count.pdf used on inp
-ut line 69.
+ut line 72.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
+Overfull \vbox (47.33243pt too high) has occurred while \output is active []
 
-LaTeX Warning: Float too large for page by 61.28517pt on input line 73.
 
-<Figures/Ar174_collected_no_comma_read_depth.pdf, id=65, 505.89pt x 505.89pt>
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 \end{figure}
+                  <./Figures/Ar73_collected_no_comma_read_depth.pdf> <./Figures
+/Ar73_collected_no_comma_count.pdf> <./Figures/Ar109_collected_no_comma_read_de
+pth.pdf> <./Figures/Ar109_collected_no_comma_count.pdf> <./Figures/Ar119_collec
+ted_no_comma_read_depth.pdf> <./Figures/Ar119_collected_no_comma_count.pdf>]
+<Figures/Ar174_collected_no_comma_read_depth.pdf, id=118, 505.89pt x 505.89pt>
 File: Figures/Ar174_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar174_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar174_collected_no_comma_read_depth.pdf used o
-n input line 76.
+n input line 80.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar174_collected_no_comma_count.pdf, id=66, 505.89pt x 505.89pt>
+<Figures/Ar174_collected_no_comma_count.pdf, id=119, 505.89pt x 505.89pt>
 File: Figures/Ar174_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar174_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar174_collected_no_comma_count.pdf used on inp
-ut line 77.
+ut line 81.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar175_collected_no_comma_read_depth.pdf, id=67, 505.89pt x 505.89pt>
+<Figures/Ar175_collected_no_comma_read_depth.pdf, id=120, 505.89pt x 505.89pt>
 File: Figures/Ar175_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar175_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar175_collected_no_comma_read_depth.pdf used o
-n input line 78.
+n input line 82.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar175_collected_no_comma_count.pdf, id=68, 505.89pt x 505.89pt>
+<Figures/Ar175_collected_no_comma_count.pdf, id=121, 505.89pt x 505.89pt>
 File: Figures/Ar175_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar175_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar175_collected_no_comma_count.pdf used on inp
-ut line 79.
+ut line 83.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar176_collected_no_comma_read_depth.pdf, id=69, 505.89pt x 505.89pt>
+<Figures/Ar176_collected_no_comma_read_depth.pdf, id=122, 505.89pt x 505.89pt>
 File: Figures/Ar176_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar176_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar176_collected_no_comma_read_depth.pdf used o
-n input line 80.
+n input line 84.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar176_collected_no_comma_count.pdf, id=70, 505.89pt x 505.89pt>
+<Figures/Ar176_collected_no_comma_count.pdf, id=123, 505.89pt x 505.89pt>
 File: Figures/Ar176_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar176_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar176_collected_no_comma_count.pdf used on inp
-ut line 81.
+ut line 85.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-
-LaTeX Warning: Float too large for page by 61.28517pt on input line 85.
-
-<Figures/Ar179_collected_no_comma_read_depth.pdf, id=71, 505.89pt x 505.89pt>
-File: Figures/Ar179_collected_no_comma_read_depth.pdf Graphic file (type pdf)
-
-<use Figures/Ar179_collected_no_comma_read_depth.pdf>
-Package pdftex.def Info: Figures/Ar179_collected_no_comma_read_depth.pdf used o
-n input line 88.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar179_collected_no_comma_count.pdf, id=72, 505.89pt x 505.89pt>
-File: Figures/Ar179_collected_no_comma_count.pdf Graphic file (type pdf)
-
-<use Figures/Ar179_collected_no_comma_count.pdf>
-Package pdftex.def Info: Figures/Ar179_collected_no_comma_count.pdf used on inp
-ut line 89.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar188_collected_no_comma_read_depth.pdf, id=73, 505.89pt x 505.89pt>
-File: Figures/Ar188_collected_no_comma_read_depth.pdf Graphic file (type pdf)
-
-<use Figures/Ar188_collected_no_comma_read_depth.pdf>
-Package pdftex.def Info: Figures/Ar188_collected_no_comma_read_depth.pdf used o
-n input line 90.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar188_collected_no_comma_count.pdf, id=74, 505.89pt x 505.89pt>
-File: Figures/Ar188_collected_no_comma_count.pdf Graphic file (type pdf)
-
-<use Figures/Ar188_collected_no_comma_count.pdf>
-Package pdftex.def Info: Figures/Ar188_collected_no_comma_count.pdf used on inp
-ut line 91.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar194_collected_no_comma_read_depth.pdf, id=75, 505.89pt x 505.89pt>
-File: Figures/Ar194_collected_no_comma_read_depth.pdf Graphic file (type pdf)
-
-<use Figures/Ar194_collected_no_comma_read_depth.pdf>
-Package pdftex.def Info: Figures/Ar194_collected_no_comma_read_depth.pdf used o
-n input line 92.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar194_collected_no_comma_count.pdf, id=76, 505.89pt x 505.89pt>
-File: Figures/Ar194_collected_no_comma_count.pdf Graphic file (type pdf)
-
-<use Figures/Ar194_collected_no_comma_count.pdf>
-Package pdftex.def Info: Figures/Ar194_collected_no_comma_count.pdf used on inp
-ut line 93.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+Overfull \vbox (47.33243pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: Float too large for page by 61.28517pt on input line 97.
-
-<Figures/Ar196_collected_no_comma_read_depth.pdf, id=77, 505.89pt x 505.89pt>
-File: Figures/Ar196_collected_no_comma_read_depth.pdf Graphic file (type pdf)
-
-<use Figures/Ar196_collected_no_comma_read_depth.pdf>
-Package pdftex.def Info: Figures/Ar196_collected_no_comma_read_depth.pdf used o
-n input line 100.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar196_collected_no_comma_count.pdf, id=78, 505.89pt x 505.89pt>
-File: Figures/Ar196_collected_no_comma_count.pdf Graphic file (type pdf)
-
-<use Figures/Ar196_collected_no_comma_count.pdf>
-Package pdftex.def Info: Figures/Ar196_collected_no_comma_count.pdf used on inp
-ut line 101.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar201_collected_no_comma_read_depth.pdf, id=79, 505.89pt x 505.89pt>
-File: Figures/Ar201_collected_no_comma_read_depth.pdf Graphic file (type pdf)
-
-<use Figures/Ar201_collected_no_comma_read_depth.pdf>
-Package pdftex.def Info: Figures/Ar201_collected_no_comma_read_depth.pdf used o
-n input line 102.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar201_collected_no_comma_count.pdf, id=80, 505.89pt x 505.89pt>
-File: Figures/Ar201_collected_no_comma_count.pdf Graphic file (type pdf)
-
-<use Figures/Ar201_collected_no_comma_count.pdf>
-Package pdftex.def Info: Figures/Ar201_collected_no_comma_count.pdf used on inp
-ut line 103.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar213_collected_no_comma_read_depth.pdf, id=81, 505.89pt x 505.89pt>
-File: Figures/Ar213_collected_no_comma_read_depth.pdf Graphic file (type pdf)
-
-<use Figures/Ar213_collected_no_comma_read_depth.pdf>
-Package pdftex.def Info: Figures/Ar213_collected_no_comma_read_depth.pdf used o
-n input line 104.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-<Figures/Ar213_collected_no_comma_count.pdf, id=82, 505.89pt x 505.89pt>
-File: Figures/Ar213_collected_no_comma_count.pdf Graphic file (type pdf)
-
-<use Figures/Ar213_collected_no_comma_count.pdf>
-Package pdftex.def Info: Figures/Ar213_collected_no_comma_count.pdf used on inp
-ut line 105.
-(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-
-
-LaTeX Warning: Float too large for page by 61.28517pt on input line 109.
-
-[1pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.110 \newpage
-              ]) (./main.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
- [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.100 \end{document}
-                     <./Figures/Ar73_collected_no_comma_read_depth.pdf> <./Figu
-res/Ar73_collected_no_comma_count.pdf> <./Figures/Ar109_collected_no_comma_read
-_depth.pdf> <./Figures/Ar109_collected_no_comma_count.pdf> <./Figures/Ar119_col
-lected_no_comma_read_depth.pdf> <./Figures/Ar119_collected_no_comma_count.pdf>]
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.100 \end{document}
-                     <./Figures/Ar142_collected_no_comma_read_depth.pdf> <./Fig
-ures/Ar142_collected_no_comma_count.pdf> <./Figures/Ar159_collected_no_comma_re
-ad_depth.pdf> <./Figures/Ar159_collected_no_comma_count.pdf> <./Figures/Ar170_c
-ollected_no_comma_read_depth.pdf> <./Figures/Ar170_collected_no_comma_count.pdf
->] [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-}) has been already used, duplicate ignored
+l.89 \end{figure}
+                  <./Figures/Ar142_collected_no_comma_read_depth.pdf> <./Figure
+s/Ar142_collected_no_comma_count.pdf> <./Figures/Ar159_collected_no_comma_read_
+depth.pdf> <./Figures/Ar159_collected_no_comma_count.pdf> <./Figures/Ar170_coll
+ected_no_comma_read_depth.pdf> <./Figures/Ar170_collected_no_comma_count.pdf>]
+<Figures/Ar179_collected_no_comma_read_depth.pdf, id=165, 505.89pt x 505.89pt>
+File: Figures/Ar179_collected_no_comma_read_depth.pdf Graphic file (type pdf)
+
+<use Figures/Ar179_collected_no_comma_read_depth.pdf>
+Package pdftex.def Info: Figures/Ar179_collected_no_comma_read_depth.pdf used o
+n input line 93.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar179_collected_no_comma_count.pdf, id=166, 505.89pt x 505.89pt>
+File: Figures/Ar179_collected_no_comma_count.pdf Graphic file (type pdf)
+
+<use Figures/Ar179_collected_no_comma_count.pdf>
+Package pdftex.def Info: Figures/Ar179_collected_no_comma_count.pdf used on inp
+ut line 94.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar188_collected_no_comma_read_depth.pdf, id=167, 505.89pt x 505.89pt>
+File: Figures/Ar188_collected_no_comma_read_depth.pdf Graphic file (type pdf)
+
+<use Figures/Ar188_collected_no_comma_read_depth.pdf>
+Package pdftex.def Info: Figures/Ar188_collected_no_comma_read_depth.pdf used o
+n input line 95.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar188_collected_no_comma_count.pdf, id=168, 505.89pt x 505.89pt>
+File: Figures/Ar188_collected_no_comma_count.pdf Graphic file (type pdf)
+
+<use Figures/Ar188_collected_no_comma_count.pdf>
+Package pdftex.def Info: Figures/Ar188_collected_no_comma_count.pdf used on inp
+ut line 96.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar194_collected_no_comma_read_depth.pdf, id=169, 505.89pt x 505.89pt>
+File: Figures/Ar194_collected_no_comma_read_depth.pdf Graphic file (type pdf)
+
+<use Figures/Ar194_collected_no_comma_read_depth.pdf>
+Package pdftex.def Info: Figures/Ar194_collected_no_comma_read_depth.pdf used o
+n input line 97.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar194_collected_no_comma_count.pdf, id=170, 505.89pt x 505.89pt>
+File: Figures/Ar194_collected_no_comma_count.pdf Graphic file (type pdf)
+
+<use Figures/Ar194_collected_no_comma_count.pdf>
+Package pdftex.def Info: Figures/Ar194_collected_no_comma_count.pdf used on inp
+ut line 98.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+Overfull \vbox (47.33243pt too high) has occurred while \output is active []
+
+
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.100 \end{document}
-                     <./Figures/Ar174_collected_no_comma_read_depth.pdf> <./Fig
-ures/Ar174_collected_no_comma_count.pdf> <./Figures/Ar175_collected_no_comma_re
-ad_depth.pdf> <./Figures/Ar175_collected_no_comma_count.pdf> <./Figures/Ar176_c
-ollected_no_comma_read_depth.pdf> <./Figures/Ar176_collected_no_comma_count.pdf
->] [5pdfTeX warning (ext4): destination with the same identifier (name{figure.4
-}) has been already used, duplicate ignored
+l.102 \end{figure}
+                   <./Figures/Ar174_collected_no_comma_read_depth.pdf> <./Figur
+es/Ar174_collected_no_comma_count.pdf> <./Figures/Ar175_collected_no_comma_read
+_depth.pdf> <./Figures/Ar175_collected_no_comma_count.pdf> <./Figures/Ar176_col
+lected_no_comma_read_depth.pdf> <./Figures/Ar176_collected_no_comma_count.pdf>]
+
+<Figures/Ar196_collected_no_comma_read_depth.pdf, id=212, 505.89pt x 505.89pt>
+File: Figures/Ar196_collected_no_comma_read_depth.pdf Graphic file (type pdf)
+
+<use Figures/Ar196_collected_no_comma_read_depth.pdf>
+Package pdftex.def Info: Figures/Ar196_collected_no_comma_read_depth.pdf used o
+n input line 106.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar196_collected_no_comma_count.pdf, id=213, 505.89pt x 505.89pt>
+File: Figures/Ar196_collected_no_comma_count.pdf Graphic file (type pdf)
+
+<use Figures/Ar196_collected_no_comma_count.pdf>
+Package pdftex.def Info: Figures/Ar196_collected_no_comma_count.pdf used on inp
+ut line 107.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar201_collected_no_comma_read_depth.pdf, id=214, 505.89pt x 505.89pt>
+File: Figures/Ar201_collected_no_comma_read_depth.pdf Graphic file (type pdf)
+
+<use Figures/Ar201_collected_no_comma_read_depth.pdf>
+Package pdftex.def Info: Figures/Ar201_collected_no_comma_read_depth.pdf used o
+n input line 108.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar201_collected_no_comma_count.pdf, id=215, 505.89pt x 505.89pt>
+File: Figures/Ar201_collected_no_comma_count.pdf Graphic file (type pdf)
+
+<use Figures/Ar201_collected_no_comma_count.pdf>
+Package pdftex.def Info: Figures/Ar201_collected_no_comma_count.pdf used on inp
+ut line 109.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar213_collected_no_comma_read_depth.pdf, id=216, 505.89pt x 505.89pt>
+File: Figures/Ar213_collected_no_comma_read_depth.pdf Graphic file (type pdf)
+
+<use Figures/Ar213_collected_no_comma_read_depth.pdf>
+Package pdftex.def Info: Figures/Ar213_collected_no_comma_read_depth.pdf used o
+n input line 110.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+<Figures/Ar213_collected_no_comma_count.pdf, id=217, 505.89pt x 505.89pt>
+File: Figures/Ar213_collected_no_comma_count.pdf Graphic file (type pdf)
+
+<use Figures/Ar213_collected_no_comma_count.pdf>
+Package pdftex.def Info: Figures/Ar213_collected_no_comma_count.pdf used on inp
+ut line 111.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+
+Overfull \vbox (47.33243pt too high) has occurred while \output is active []
+
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.100 \end{document}
-                     <./Figures/Ar179_collected_no_comma_read_depth.pdf> <./Fig
-ures/Ar179_collected_no_comma_count.pdf> <./Figures/Ar188_collected_no_comma_re
-ad_depth.pdf> <./Figures/Ar188_collected_no_comma_count.pdf> <./Figures/Ar194_c
-ollected_no_comma_read_depth.pdf> <./Figures/Ar194_collected_no_comma_count.pdf
->] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-}) has been already used, duplicate ignored
+l.115 \end{figure}
+                   <./Figures/Ar179_collected_no_comma_read_depth.pdf> <./Figur
+es/Ar179_collected_no_comma_count.pdf> <./Figures/Ar188_collected_no_comma_read
+_depth.pdf> <./Figures/Ar188_collected_no_comma_count.pdf> <./Figures/Ar194_col
+lected_no_comma_read_depth.pdf> <./Figures/Ar194_collected_no_comma_count.pdf>]
+
+Overfull \vbox (47.33243pt too high) has occurred while \output is active []
+
+
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.100 \end{document}
-                     <./Figures/Ar196_collected_no_comma_read_depth.pdf> <./Fig
-ures/Ar196_collected_no_comma_count.pdf> <./Figures/Ar201_collected_no_comma_re
-ad_depth.pdf> <./Figures/Ar201_collected_no_comma_count.pdf> <./Figures/Ar213_c
-ollected_no_comma_read_depth.pdf> <./Figures/Ar213_collected_no_comma_count.pdf
->]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+l.116 \newpage
+               <./Figures/Ar196_collected_no_comma_read_depth.pdf> <./Figures/A
+r196_collected_no_comma_count.pdf> <./Figures/Ar201_collected_no_comma_read_dep
+th.pdf> <./Figures/Ar201_collected_no_comma_count.pdf> <./Figures/Ar213_collect
+ed_no_comma_read_depth.pdf> <./Figures/Ar213_collected_no_comma_count.pdf>])
+(./Document_Sections/armg_indels.tex) [7] [8pdfTeX warning (ext4): destination 
+with the same identifier (name{figure.6}) has been already used, duplicate igno
+red
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.99 	\newpage
+              ] (./main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 108.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A1D0520774DA239E5988102BF956775;209.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
+(rerunfilecheck)             Checksum: 13B8DEE8AE1ACD1F54D904EDCAB994BE;259.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 9720 strings out of 493029
- 146976 string characters out of 6136233
- 250542 words of memory out of 5000000
- 13027 multiletter control sequences out of 15000+600000
- 9516 words of font info for 38 fonts, out of 8000000 for 9000
+ 9824 strings out of 493029
+ 148353 string characters out of 6136233
+ 251127 words of memory out of 5000000
+ 13115 multiletter control sequences out of 15000+600000
+ 10222 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,9n,43p,281b,365s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,10n,43p,334b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on main.pdf (9 pages, 218267 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (11 pages, 242016 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 22 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 332 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
