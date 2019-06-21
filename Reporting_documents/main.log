@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  21 JUN 2019 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  21 JUN 2019 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,7 +635,19 @@ l.55
 
 Package hyperref Warning: Suppressing empty link on input line 56.
 
-<Figures/Ar73_collected_no_comma_read_depth.pdf, id=73, 505.89pt x 505.89pt>
+
+Package hyperref Warning: Suppressing empty link on input line 56.
+
+
+Package hyperref Warning: Suppressing empty link on input line 56.
+
+
+Package hyperref Warning: Suppressing empty link on input line 56.
+
+
+Package hyperref Warning: Suppressing empty link on input line 56.
+
+<Figures/Ar73_collected_no_comma_read_depth.pdf, id=69, 505.89pt x 505.89pt>
 File: Figures/Ar73_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar73_collected_no_comma_read_depth.pdf>
@@ -643,7 +655,7 @@ Package pdftex.def Info: Figures/Ar73_collected_no_comma_read_depth.pdf used on
  input line 61.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar73_collected_no_comma_count.pdf, id=74, 505.89pt x 505.89pt>
+<Figures/Ar73_collected_no_comma_count.pdf, id=70, 505.89pt x 505.89pt>
 File: Figures/Ar73_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar73_collected_no_comma_count.pdf>
@@ -651,7 +663,7 @@ Package pdftex.def Info: Figures/Ar73_collected_no_comma_count.pdf used on inpu
 t line 62.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar109_collected_no_comma_read_depth.pdf, id=75, 505.89pt x 505.89pt>
+<Figures/Ar109_collected_no_comma_read_depth.pdf, id=71, 505.89pt x 505.89pt>
 File: Figures/Ar109_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar109_collected_no_comma_read_depth.pdf>
@@ -659,7 +671,7 @@ Package pdftex.def Info: Figures/Ar109_collected_no_comma_read_depth.pdf used o
 n input line 63.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar109_collected_no_comma_count.pdf, id=76, 505.89pt x 505.89pt>
+<Figures/Ar109_collected_no_comma_count.pdf, id=72, 505.89pt x 505.89pt>
 File: Figures/Ar109_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar109_collected_no_comma_count.pdf>
@@ -667,7 +679,7 @@ Package pdftex.def Info: Figures/Ar109_collected_no_comma_count.pdf used on inp
 ut line 64.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar119_collected_no_comma_read_depth.pdf, id=77, 505.89pt x 505.89pt>
+<Figures/Ar119_collected_no_comma_read_depth.pdf, id=73, 505.89pt x 505.89pt>
 File: Figures/Ar119_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar119_collected_no_comma_read_depth.pdf>
@@ -675,7 +687,7 @@ Package pdftex.def Info: Figures/Ar119_collected_no_comma_read_depth.pdf used o
 n input line 65.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar119_collected_no_comma_count.pdf, id=78, 505.89pt x 505.89pt>
+<Figures/Ar119_collected_no_comma_count.pdf, id=74, 505.89pt x 505.89pt>
 File: Figures/Ar119_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar119_collected_no_comma_count.pdf>
@@ -683,7 +695,7 @@ Package pdftex.def Info: Figures/Ar119_collected_no_comma_count.pdf used on inp
 ut line 66.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar142_collected_no_comma_read_depth.pdf, id=79, 505.89pt x 505.89pt>
+<Figures/Ar142_collected_no_comma_read_depth.pdf, id=75, 505.89pt x 505.89pt>
 File: Figures/Ar142_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar142_collected_no_comma_read_depth.pdf>
@@ -691,7 +703,7 @@ Package pdftex.def Info: Figures/Ar142_collected_no_comma_read_depth.pdf used o
 n input line 77.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar142_collected_no_comma_count.pdf, id=80, 505.89pt x 505.89pt>
+<Figures/Ar142_collected_no_comma_count.pdf, id=76, 505.89pt x 505.89pt>
 File: Figures/Ar142_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar142_collected_no_comma_count.pdf>
@@ -699,7 +711,7 @@ Package pdftex.def Info: Figures/Ar142_collected_no_comma_count.pdf used on inp
 ut line 78.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar159_collected_no_comma_read_depth.pdf, id=81, 505.89pt x 505.89pt>
+<Figures/Ar159_collected_no_comma_read_depth.pdf, id=77, 505.89pt x 505.89pt>
 File: Figures/Ar159_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar159_collected_no_comma_read_depth.pdf>
@@ -707,7 +719,7 @@ Package pdftex.def Info: Figures/Ar159_collected_no_comma_read_depth.pdf used o
 n input line 79.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar159_collected_no_comma_count.pdf, id=82, 505.89pt x 505.89pt>
+<Figures/Ar159_collected_no_comma_count.pdf, id=78, 505.89pt x 505.89pt>
 File: Figures/Ar159_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar159_collected_no_comma_count.pdf>
@@ -715,7 +727,7 @@ Package pdftex.def Info: Figures/Ar159_collected_no_comma_count.pdf used on inp
 ut line 80.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar170_collected_no_comma_read_depth.pdf, id=83, 505.89pt x 505.89pt>
+<Figures/Ar170_collected_no_comma_read_depth.pdf, id=79, 505.89pt x 505.89pt>
 File: Figures/Ar170_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar170_collected_no_comma_read_depth.pdf>
@@ -723,7 +735,7 @@ Package pdftex.def Info: Figures/Ar170_collected_no_comma_read_depth.pdf used o
 n input line 81.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar170_collected_no_comma_count.pdf, id=84, 505.89pt x 505.89pt>
+<Figures/Ar170_collected_no_comma_count.pdf, id=80, 505.89pt x 505.89pt>
 File: Figures/Ar170_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar170_collected_no_comma_count.pdf>
@@ -744,7 +756,7 @@ l.89 \end{figure}
 /Ar73_collected_no_comma_count.pdf> <./Figures/Ar109_collected_no_comma_read_de
 pth.pdf> <./Figures/Ar109_collected_no_comma_count.pdf> <./Figures/Ar119_collec
 ted_no_comma_read_depth.pdf> <./Figures/Ar119_collected_no_comma_count.pdf>]
-<Figures/Ar174_collected_no_comma_read_depth.pdf, id=129, 505.89pt x 505.89pt>
+<Figures/Ar174_collected_no_comma_read_depth.pdf, id=125, 505.89pt x 505.89pt>
 File: Figures/Ar174_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar174_collected_no_comma_read_depth.pdf>
@@ -752,7 +764,7 @@ Package pdftex.def Info: Figures/Ar174_collected_no_comma_read_depth.pdf used o
 n input line 93.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar174_collected_no_comma_count.pdf, id=130, 505.89pt x 505.89pt>
+<Figures/Ar174_collected_no_comma_count.pdf, id=126, 505.89pt x 505.89pt>
 File: Figures/Ar174_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar174_collected_no_comma_count.pdf>
@@ -760,7 +772,7 @@ Package pdftex.def Info: Figures/Ar174_collected_no_comma_count.pdf used on inp
 ut line 94.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar175_collected_no_comma_read_depth.pdf, id=131, 505.89pt x 505.89pt>
+<Figures/Ar175_collected_no_comma_read_depth.pdf, id=127, 505.89pt x 505.89pt>
 File: Figures/Ar175_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar175_collected_no_comma_read_depth.pdf>
@@ -768,7 +780,7 @@ Package pdftex.def Info: Figures/Ar175_collected_no_comma_read_depth.pdf used o
 n input line 95.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar175_collected_no_comma_count.pdf, id=132, 505.89pt x 505.89pt>
+<Figures/Ar175_collected_no_comma_count.pdf, id=128, 505.89pt x 505.89pt>
 File: Figures/Ar175_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar175_collected_no_comma_count.pdf>
@@ -776,7 +788,7 @@ Package pdftex.def Info: Figures/Ar175_collected_no_comma_count.pdf used on inp
 ut line 96.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar176_collected_no_comma_read_depth.pdf, id=133, 505.89pt x 505.89pt>
+<Figures/Ar176_collected_no_comma_read_depth.pdf, id=129, 505.89pt x 505.89pt>
 File: Figures/Ar176_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar176_collected_no_comma_read_depth.pdf>
@@ -784,7 +796,7 @@ Package pdftex.def Info: Figures/Ar176_collected_no_comma_read_depth.pdf used o
 n input line 97.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar176_collected_no_comma_count.pdf, id=134, 505.89pt x 505.89pt>
+<Figures/Ar176_collected_no_comma_count.pdf, id=130, 505.89pt x 505.89pt>
 File: Figures/Ar176_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar176_collected_no_comma_count.pdf>
@@ -806,7 +818,7 @@ es/Ar142_collected_no_comma_count.pdf> <./Figures/Ar159_collected_no_comma_read
 _depth.pdf> <./Figures/Ar159_collected_no_comma_count.pdf> <./Figures/Ar170_col
 lected_no_comma_read_depth.pdf> <./Figures/Ar170_collected_no_comma_count.pdf>]
 
-<Figures/Ar179_collected_no_comma_read_depth.pdf, id=177, 505.89pt x 505.89pt>
+<Figures/Ar179_collected_no_comma_read_depth.pdf, id=173, 505.89pt x 505.89pt>
 File: Figures/Ar179_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar179_collected_no_comma_read_depth.pdf>
@@ -814,7 +826,7 @@ Package pdftex.def Info: Figures/Ar179_collected_no_comma_read_depth.pdf used o
 n input line 109.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar179_collected_no_comma_count.pdf, id=178, 505.89pt x 505.89pt>
+<Figures/Ar179_collected_no_comma_count.pdf, id=174, 505.89pt x 505.89pt>
 File: Figures/Ar179_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar179_collected_no_comma_count.pdf>
@@ -822,7 +834,7 @@ Package pdftex.def Info: Figures/Ar179_collected_no_comma_count.pdf used on inp
 ut line 110.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar188_collected_no_comma_read_depth.pdf, id=179, 505.89pt x 505.89pt>
+<Figures/Ar188_collected_no_comma_read_depth.pdf, id=175, 505.89pt x 505.89pt>
 File: Figures/Ar188_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar188_collected_no_comma_read_depth.pdf>
@@ -830,7 +842,7 @@ Package pdftex.def Info: Figures/Ar188_collected_no_comma_read_depth.pdf used o
 n input line 111.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar188_collected_no_comma_count.pdf, id=180, 505.89pt x 505.89pt>
+<Figures/Ar188_collected_no_comma_count.pdf, id=176, 505.89pt x 505.89pt>
 File: Figures/Ar188_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar188_collected_no_comma_count.pdf>
@@ -838,7 +850,7 @@ Package pdftex.def Info: Figures/Ar188_collected_no_comma_count.pdf used on inp
 ut line 112.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar194_collected_no_comma_read_depth.pdf, id=181, 505.89pt x 505.89pt>
+<Figures/Ar194_collected_no_comma_read_depth.pdf, id=177, 505.89pt x 505.89pt>
 File: Figures/Ar194_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar194_collected_no_comma_read_depth.pdf>
@@ -846,7 +858,7 @@ Package pdftex.def Info: Figures/Ar194_collected_no_comma_read_depth.pdf used o
 n input line 113.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar194_collected_no_comma_count.pdf, id=182, 505.89pt x 505.89pt>
+<Figures/Ar194_collected_no_comma_count.pdf, id=178, 505.89pt x 505.89pt>
 File: Figures/Ar194_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar194_collected_no_comma_count.pdf>
@@ -868,7 +880,7 @@ es/Ar174_collected_no_comma_count.pdf> <./Figures/Ar175_collected_no_comma_read
 _depth.pdf> <./Figures/Ar175_collected_no_comma_count.pdf> <./Figures/Ar176_col
 lected_no_comma_read_depth.pdf> <./Figures/Ar176_collected_no_comma_count.pdf>]
 
-<Figures/Ar196_collected_no_comma_read_depth.pdf, id=223, 505.89pt x 505.89pt>
+<Figures/Ar196_collected_no_comma_read_depth.pdf, id=219, 505.89pt x 505.89pt>
 File: Figures/Ar196_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar196_collected_no_comma_read_depth.pdf>
@@ -876,7 +888,7 @@ Package pdftex.def Info: Figures/Ar196_collected_no_comma_read_depth.pdf used o
 n input line 125.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar196_collected_no_comma_count.pdf, id=224, 505.89pt x 505.89pt>
+<Figures/Ar196_collected_no_comma_count.pdf, id=220, 505.89pt x 505.89pt>
 File: Figures/Ar196_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar196_collected_no_comma_count.pdf>
@@ -884,7 +896,7 @@ Package pdftex.def Info: Figures/Ar196_collected_no_comma_count.pdf used on inp
 ut line 126.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar201_collected_no_comma_read_depth.pdf, id=225, 505.89pt x 505.89pt>
+<Figures/Ar201_collected_no_comma_read_depth.pdf, id=221, 505.89pt x 505.89pt>
 File: Figures/Ar201_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar201_collected_no_comma_read_depth.pdf>
@@ -892,7 +904,7 @@ Package pdftex.def Info: Figures/Ar201_collected_no_comma_read_depth.pdf used o
 n input line 127.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar201_collected_no_comma_count.pdf, id=226, 505.89pt x 505.89pt>
+<Figures/Ar201_collected_no_comma_count.pdf, id=222, 505.89pt x 505.89pt>
 File: Figures/Ar201_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar201_collected_no_comma_count.pdf>
@@ -900,7 +912,7 @@ Package pdftex.def Info: Figures/Ar201_collected_no_comma_count.pdf used on inp
 ut line 128.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar213_collected_no_comma_read_depth.pdf, id=227, 505.89pt x 505.89pt>
+<Figures/Ar213_collected_no_comma_read_depth.pdf, id=223, 505.89pt x 505.89pt>
 File: Figures/Ar213_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 
 <use Figures/Ar213_collected_no_comma_read_depth.pdf>
@@ -908,7 +920,7 @@ Package pdftex.def Info: Figures/Ar213_collected_no_comma_read_depth.pdf used o
 n input line 129.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 
-<Figures/Ar213_collected_no_comma_count.pdf, id=228, 505.89pt x 505.89pt>
+<Figures/Ar213_collected_no_comma_count.pdf, id=224, 505.89pt x 505.89pt>
 File: Figures/Ar213_collected_no_comma_count.pdf Graphic file (type pdf)
 
 <use Figures/Ar213_collected_no_comma_count.pdf>
@@ -958,16 +970,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 13B8DEE8AE1ACD1F54D904EDCAB994BE;259.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
  9825 strings out of 493029
  148359 string characters out of 6136233
- 251097 words of memory out of 5000000
+ 250972 words of memory out of 5000000
  13115 multiletter control sequences out of 15000+600000
  10222 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -976,10 +984,10 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 245022 bytes).
+Output written on main.pdf (12 pages, 244914 bytes).
 PDF statistics:
- 342 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
+ 338 PDF objects out of 1000 (max. 8388607)
+ 257 compressed objects within 3 object streams
  27 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
