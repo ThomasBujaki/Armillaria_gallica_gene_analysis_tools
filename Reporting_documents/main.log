@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  21 JUN 2019 12:21
 entering extended mode
  restricted \write18 enabled.
@@ -990,4 +991,108 @@ PDF statistics:
  257 compressed objects within 3 object streams
  27 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.21)  21 JUN 2019 11:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.pdf
+(./main.pdf
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 3
+     0 0 obj
+? 
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no < in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no > in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no Ú in font nullfont!
+Missing character: There is no ¥ in font nullfont!
+Missing character: There is no Ñ in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no Ã in font nullfont!
+Missing character: There is no 0 in font nullfont!
+! Text line contains an invalid character.
+l.9 xÚ¥Ñ=OÃ0^^P
+               ^^Fà=¿âFgˆ9^^?\Î^^^i¡^^HÄ„¼U^^L©â^^VKQŠH^^Xø÷¤²T5mABLïÉÃ£÷|^^...
+
+? 
+! Text line contains an invalid character.
+l.9 xÚ¥Ñ=OÃ0^^P^^F
+                  à=¿âFgˆ9^^?\Î^^^i¡^^HÄ„¼U^^L©â^^VKQŠH^^Xø÷¤²T5mABLïÉÃ£÷|^^...
+
+? 
+! Interruption.
+<to be read again> 
+                   à
+l.9 xÚ¥Ñ=OÃ0^^P^^Fà
+                   =¿âFgˆ9^^?\Î^^^i¡^^HÄ„¼U^^L©â^^VKQŠH^^Xø÷¤²T5mABLïÉÃ£÷|^^...
+
+? exit ()
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 494923
+ 122 string characters out of 6180742
+ 45874 words of memory out of 5000000
+ 3421 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 5i,0n,4p,240b,14s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 2342524876b8747401bdc919b47f5f2076c43e71
 

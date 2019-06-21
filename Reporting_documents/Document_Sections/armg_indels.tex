@@ -8,12 +8,28 @@ Through previous studies on the \textit{Armillaria gallica} fungus, several stra
 Through the use of bcftools, labels were added to the output which indicated various other information about the indel found such as: maximum number of reads supporting an indel, raw read depth, the number of reads that support the indel and other information.
 
 
-\begin{figure}
+\begin{table}[H]
 \begin{center}
+	\captionof{table}[Summary Indel Table]{A summary table of the first three indels found in each of the strains which includes the scaffold number, the location at which the indel is found, the number of reads that support that indel, and the raw read depth}
 	\begin{tabular}{ |c|c|c|c|c|c|c| } 
 		\hline
 		Strain No. & Scaffold No. & Location & No. of Reads Supporting & Raw Read Depth \\
 		\hline
+		\multirow{3}{4em}{Ar73} & 1 & 7762 &54 & 156\\
+		&1 & 10784 & 34 & 148\\
+		&1 & 12340 & 37 & 123\\
+		\hline
+		\multirow{3}{4em}{Ar109} & 1 & 7762 & 56 & 163\\
+		& 1 & 10784 & 68 & 175 \\
+		& 1 & 16154 & 7 & 176 \\
+		\hline
+		\multirow{3}{4em}{Ar119} & 1 & 7762 & 62 & 163 \\
+		& 1 & 10784 & 57 & 140 \\
+		& 1 & 16154 & 4 & 167 \\
+		\hline
+		\multirow{3}{4em}{Ar142} & 1 & 7762 & 63 & 189 \\
+		& 1 & 10784 & 55 & 186 \\
+		& 1 & 16154 & 5 & 125 \\
 		\multirow{3}{4em}{Ar159} & 1 & 7762 & 41 & 116 \\ 
 		& 1 & 10784 & 28 & 100  \\ 
 		& 1 & 16154 & 3 & 85 \\ 
@@ -60,8 +76,6 @@ Through the use of bcftools, labels were added to the output which indicated var
 		\hline
 	\end{tabular}
 \end{center}
-\label{fig:img1}
-\caption{A summary table of the first three indels found in each of the strains which includes the scaffold number, the location at which the indel is found, the number of reads that support that indel and the raw read depth}
-\end{figure}
+\end{table}
 
 \end{document}
