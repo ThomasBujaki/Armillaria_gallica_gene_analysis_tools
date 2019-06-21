@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.6.21)  21 JUN 2019 12:19
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  21 JUN 2019 12:40
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.10)  21 JUN 2019 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-<<<<<<< HEAD
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
-=======
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -33,41 +24,21 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/epsfig.sty
-<<<<<<< HEAD
-Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-=======
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-<<<<<<< HEAD
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-=======
 Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-<<<<<<< HEAD
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: dvips.def on input line 99.
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
@@ -75,7 +46,6 @@ Package graphics Info: Driver file: dvips.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
 File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -88,11 +58,7 @@ File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 LaTeX Warning: inputting `fleqn.clo' instead of obsolete `fleqn.sty'.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fleqn.clo
-<<<<<<< HEAD
-File: fleqn.clo 2016/12/29 v1.2a Standard LaTeX option (flush left equations)
-=======
 File: fleqn.clo 2015/03/31 v1.1i Standard LaTeX option (flush left equations)
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 \mathindent=\dimen107
 Applying: [2015/01/01] Make \[ robust on input line 50.
 LaTeX Info: Redefining \[ on input line 51.
@@ -121,11 +87,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \ex@=\dimen108
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-<<<<<<< HEAD
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-=======
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 \col@sep=\dimen109
 \extrarowheight=\dimen110
 \NC@list=\toks17
@@ -141,11 +103,7 @@ Package: inputenc 2015/03/17 v1.2c Input encoding file
 File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-<<<<<<< HEAD
-Package: amsmath 2017/09/02 v2.17a AMS math features
-=======
 Package: amsmath 2016/03/03 v2.15a AMS math features
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 \@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
@@ -154,25 +112,6 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-<<<<<<< HEAD
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count88
-\leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count90
-\DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen112
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-=======
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -190,7 +129,6 @@ LaTeX Info: Redefining \cdots on input line 518.
 \big@size=\dimen112
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -211,30 +149,18 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip46
 \multlinetaggap=\skip47
 \mathdisplay@stack=\toks23
-<<<<<<< HEAD
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
-=======
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-<<<<<<< HEAD
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-=======
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
 Package ifvtex Info: VTeX not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
@@ -259,29 +185,6 @@ Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-<<<<<<< HEAD
-
-! LaTeX Error: File `psfrag.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: X
-
- )
-(\end occurred when \ifx on line 13 was incomplete)
-(\end occurred when \ifx on line 13 was incomplete) 
-Here is how much of TeX's memory you used:
- 2053 strings out of 494923
- 25881 string characters out of 6180742
- 79631 words of memory out of 5000000
- 5380 multiletter control sequences out of 15000+600000
- 3938 words of font info for 15 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 32i,1n,32p,233b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-No pages of output.
-=======
 (/usr/share/texlive/texmf-dist/tex/latex/psfrag/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
 \pfg@pcount=\count102
@@ -1038,7 +941,7 @@ r196_collected_no_comma_count.pdf> <./Figures/Ar201_collected_no_comma_read_dep
 th.pdf> <./Figures/Ar201_collected_no_comma_count.pdf> <./Figures/Ar213_collect
 ed_no_comma_read_depth.pdf> <./Figures/Ar213_collected_no_comma_count.pdf>])
 (./Document_Sections/armg_indels.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
 
  []
 
@@ -1074,11 +977,10 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 245410 bytes).
->>>>>>> 10798c63a0f4a641323610bb7e8bb05dda0d6354
+Output written on main.pdf (12 pages, 245735 bytes).
 PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 260 compressed objects within 3 object streams
+ 342 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
  27 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
