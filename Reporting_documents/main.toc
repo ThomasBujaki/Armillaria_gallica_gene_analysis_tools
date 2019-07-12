@@ -2,5 +2,6 @@
 \contentsline {section}{List of Figures}{ii}{section*.3}
 \contentsline {section}{List of Tables}{iii}{section*.4}
 \contentsline {section}{Read Depth Snapshots}{1}{section*.6}
-\contentsline {section}{Read Depth Analyses}{4}{section*.7}
-\contentsline {section}{Indel Analysis}{11}{section*.8}
+\contentsline {section}{Read Depth Analyses}{5}{section*.7}
+\contentsline {section}{Unaligned Reads}{12}{section*.8}
+\contentsline {section}{Indel Analysis}{13}{section*.9}

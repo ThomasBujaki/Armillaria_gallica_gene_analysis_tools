@@ -1,0 +1,19 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Unaligned reads
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+It is possible that there are a number of reads which were so different from the reference sequences that they did not align onto the reference when Hao was working with them. This possibilty could mean that there would be reads which are from sequences in the big fungus that do not exist in the reference fungus genome. If this was the case than attempting a de novo alignment of these sequences could prove useful. 
+
+To see if there were unaligned reads I made use of a samtools command "samtools view -f 4 bamfile $>$ out.sam". 
+
+But there did not appear to be any reads which were not aligned. 
+
+
+\end{document}
