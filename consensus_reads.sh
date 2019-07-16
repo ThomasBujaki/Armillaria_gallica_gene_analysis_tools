@@ -5,6 +5,8 @@ reads_end=$2
 scaffold_num=$3
 bam_file=$4
 
-samtools view -o output.sam ${bam_file}  scaffold_${scaffold_num}:${reads_start}-${reads_end}
+samtools view -o temp ${bam_file}  scaffold_${scaffold_num}:${reads_start}-${reads_end}
+awk '{print $3,$4,$6,$10,$11}' temp > temp2
+
 
 
