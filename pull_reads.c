@@ -3,42 +3,28 @@
 #include <string.h>
 
 int fill_aligned_sites(char *token, int *aligned_sites, int  sum_len, int m_or_s){
-    printf("sum_len %d\n", sum_len);
     int token_iter = 0;
     int strtol_val = strtol(token, &token, 10);
-    printf("strtol_val: %d\n", strtol_val);
     for (token_iter = sum_len; token_iter < (strtol_val + sum_len); token_iter++){
-	if (m_or_s == 77){
+	if (m_or_s == 'M'){
 	    aligned_sites[token_iter] = 1;
-	    printf("sum_len %d\t token_iter %d\n", sum_len, token_iter);
-	    printf("aligned_sites: %d\n", aligned_sites[token_iter]);
         } 
-	else if (m_or_s == 83){
+	else if (m_or_s == 'S'){
 	    aligned_sites[token_iter] = 0;
-	    printf("sum_len %d\t token_iter %d\n", sum_len, token_iter);
-	    printf("aligned_sites: %d\n", aligned_sites[token_iter]);
 	}
     }
-    printf("sum_len %d\t token_iter %d\n", sum_len, token_iter);
     sum_len = token_iter;
-    printf("sum_len %d\t token_iter %d\n", sum_len, token_iter);
-
     return sum_len;
 }
 
 int parse_cigar(char *cigar, int *aligned_sites) {
-    printf("%s\n", cigar);
-
     int cig_len = strlen(cigar);
-    printf("cigar len: %d\n", cig_len);
     char *token;
     int sum_len = 0;
     int cig_index = 1;
     int split_flag = 0;
     for (cig_index = 0; cig_index < cig_len; cig_index++){
-	printf("cigar char: %s\n", &cigar[cig_index]);
-	if (cigar[cig_index] == 77){ // 77 = M
-	    printf("splitting by M\n"); 
+	if (cigar[cig_index] == 'M'){ 
 	    if (!split_flag) {
 	        token = strtok(cigar, "M");
 		split_flag=1;
@@ -47,9 +33,7 @@ int parse_cigar(char *cigar, int *aligned_sites) {
 	        token = strtok(NULL, "M");
 		sum_len = fill_aligned_sites(token, aligned_sites, sum_len, 77);
 	    }
-	    printf("token: %s\n", token);
-	} else if (cigar[cig_index] == 83) { // 83 = S
-	    printf("splitting by S\n"); 
+	} else if (cigar[cig_index] == 'S') { // 83 = S
 	    if (!split_flag) {
 	        token = strtok(cigar, "S");
 		split_flag=1;
@@ -58,12 +42,71 @@ int parse_cigar(char *cigar, int *aligned_sites) {
 	        token = strtok(NULL, "S");
 		sum_len = fill_aligned_sites(token, aligned_sites, sum_len, 83);
 	    }
-	    printf("token: %s\n", token);
+
+// need to parse for insertions (I) and deletions (D)
 	} else if (cigar[cig_index] < 48 || cigar[cig_index] > 57){
 	    printf("parsing error. Character in cigar string that is not a number, S or M.\n");
+            return 0;
 	}
     } 
     return 0;
+}
+
+int cut_read_before_range(int *aligned_sites, int arr_len, int read_start, int range_start){
+    int index;
+    for (index = 0; index < arr_len; index++){
+        if (read_start + index < range_start) {
+            aligned_sites[index] = 0; 
+        }
+    }
+    return 0;
+}
+
+int cut_read_after_range(int *aligned_sites, int arr_len, int read_start, int range_end){
+    int index;
+    for (index = 0; index < arr_len; index++){
+        if (read_start + index > range_end) {
+            aligned_sites[index] = 0; 
+        }
+    }
+    return 0;
+    
+}
+
+int find_start_index(int *aligned_sites, int arr_len){
+    int index;
+    for (index = 0; index < arr_len; index++){
+        if (aligned_sites[index] == 1){
+	    return index;
+        }
+    }
+    return -1;
+}
+int find_end_index(int *aligned_sites, int arr_len){
+    int index;
+    for (index = arr_len - 1; index >= 0; index--){
+	if (aligned_sites[index] == 1){
+	    return index;
+	}
+    }
+    return -1;
+}
+
+void print_target_substring(char *read, int *aligned_sites, int arr_len, int indent_level){
+    int index;
+    for (index = 0; index < indent_level; index++){
+        printf(" ");
+    }
+    for (index = 0; index < arr_len; index++){
+	if (aligned_sites[index] == 1){
+            printf("%c", read[index]);
+	}
+    }
+    printf("\n");
+}
+
+void manage_clipping(){
+
 }
 
 int main(int argc, char* argv[])
@@ -90,22 +133,35 @@ int main(int argc, char* argv[])
     char scaffold[60];
     char read_start[60];
     char cigar[60];
-    char read[120];
-    char quality[120];
+    char read[150];
+    char quality[150];
+
+    int previous_indent = 0;
 
     FILE* file = fopen(fileName, "r"); 
     while (!feof(file)) {
-	fscanf(file, "%s %s %s %s %s\n", &scaffold, &read_start, &cigar, &read, &quality);
-	printf("size of read: %d\n", strlen(read));
+	fscanf(file, "%s %s %s %s %s\n", scaffold, read_start, cigar, read, quality);
         int read_len = strlen(read);
 	int aligned_sites[read_len];
-	//printf("cigar: %s\n", cigar);
 	parse_cigar(cigar, aligned_sites);
-	int i;
+        cut_read_before_range(aligned_sites, read_len, atoi(read_start), start_position); 
+        cut_read_after_range(aligned_sites, read_len, atoi(read_start), end_position); 
+        int start_index = find_start_index(aligned_sites, read_len);
+        int end_index = find_end_index(aligned_sites, read_len);
+//	int indent_level = find_indent_level(read_start);
+//	printf("start index: %d\t end index %d\n", start_index, end_index);
+//	printf("cigar %s, %c\n", cigar, read[end_index]);
+	int indent_level = atoi(read_start )- start_position > 0 ? atoi(read_start) - start_position : 0 ;
+	print_target_substring(read, aligned_sites, read_len, indent_level);
+/*	int i;
+	for (i = 0; i < read_len; i++){
+	    printf("%c", read[i]);
+	}	
+	printf("\n");
 	for (i = 0; i < read_len; i++){
 	    printf("%d", aligned_sites[i]);
 	}	
-	printf("\n");
+	printf("\n"); */
 /*	
 	printf("scaffold: %s\n", scaffold);
 	printf("read_start: %s\n", read_start);
