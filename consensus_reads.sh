@@ -7,6 +7,8 @@ bam_file=$4
 
 samtools view -o temp ${bam_file}  scaffold_${scaffold_num}:${reads_start}-${reads_end}
 awk '{print $3,$4,$6,$10,$11}' temp > temp2
-
+./a.out temp2 scaffold_${scaffold_num} ${reads_start} ${reads_end}
+rm temp
+rm temp2
 
 
