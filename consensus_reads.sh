@@ -1,5 +1,14 @@
 # this program will take in a bam file, and a region which the reads will be taken from.
 
+argc=$#
+requiredArgc=4
+path=$(pwd)
+if [ $argc -ne $requiredArgc ]; then
+        echo "./consensus_reads.sh <location_start> <location_end> <scaffold_number> <bam_file>"
+        exit 1
+fi
+
+
 reads_start=$1
 reads_end=$2
 scaffold_num=$3
