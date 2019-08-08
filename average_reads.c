@@ -76,17 +76,19 @@ int main(int argc, char* argv[])
       consensus_count_c[con_count_index] = 0;
       consensus_count_g[con_count_index] = 0;
     }
-    
     char read[width+1];
-    FILE* file = fopen(file_name, "r"); 
+    FILE* file = fopen(file_name, "r");
     while (!feof(file)) {
   	  int numberOfItemsMatched = fscanf(file, "%[^\n]%*c", read);
       //int numberOfItemsMatched = fscanf(file, "%s\r", read);
       //printf("%s\n", read);
       int site_index = 0;
+      //printf("%c %s\n", read[site_index], read);
       while(read[site_index] != '\0') {
+        //printf("%d\n", read[site_index] != '\0');
+
         char site = read[site_index];
-        //printf("%d\n", site);
+        //printf("%d\n", site_index);
         if (site == 'A' || site == 'a') {
           consensus_count_a[site_index]++;
         } else if (site == 'T' || site == 't'){

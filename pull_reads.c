@@ -135,7 +135,7 @@ void print_target_substring(char *read, int *aligned_sites, int arr_len, int ind
                 printf("%c", read[index]);
         }
     }
-    printf("\n");
+    printf(" \n");
 }
 
 /*void manage_clipping(){
