@@ -99,17 +99,15 @@ int main(int argc, char* argv[])
           consensus_count_g[site_index]++;
         } else if (site == ' ') {
           // Do nothing
+        } else if (site == 'N' || site == 'n') {
+          // Do Nothing
         } else {
-          printf("We saw an unexpected character: '%c' %d", site, site);
+          printf("We saw an unexpected character: '%c' %d\n", site, site);
           exit(1);
         }
         site_index++;
       }
     }
-
-    //printf("%ld\n", consensus_count_g[0]);
-    //printf("%ld\n", consensus_count_t[1]);
-    //printf("%ld\n", consensus_count_qt[2]);
     print_consensus(consensus_count_a, consensus_count_t, consensus_count_c, consensus_count_g, width);
     //print_site_matrix(consensus_count_a, consensus_count_t, consensus_count_c, consensus_count_g, width);
     return 0;
