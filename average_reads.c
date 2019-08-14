@@ -104,10 +104,6 @@ int main(int argc, char* argv[])
         site_index++;
       }
     }
-
-    //printf("%ld\n", consensus_count_g[0]);
-    //printf("%ld\n", consensus_count_t[1]);
-    //printf("%ld\n", consensus_count_qt[2]);
     print_consensus(consensus_count_a, consensus_count_t, consensus_count_c, consensus_count_g, width);
     //print_site_matrix(consensus_count_a, consensus_count_t, consensus_count_c, consensus_count_g, width);
     return 0;
