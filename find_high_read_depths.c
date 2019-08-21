@@ -43,7 +43,7 @@ int main(int argc, char* argv[])
     FILE* file2 = fopen(file_name, "r");
     while (!feof(file2)) {
         fscanf(file, "%s %d %d\n", scaffold, &location, &read_depth);
-        if (read_depth > scaffold_average + 3 * std_dev) {
+        if (read_depth > scaffold_average + 5 * std_dev) {
             //printf("1scaffold: %s, location: %d, read_depth: %d, avg+stdev: %f\n", scaffold, location, read_depth, scaffold_average + std_dev);
             num_below_significant = 0;
             if (!sig_location_start) {
@@ -54,7 +54,8 @@ int main(int argc, char* argv[])
             num_below_significant++;
         } else if (num_below_significant == 10) {
             sig_location_end = location - 10;
-            printf("Region of significant read depth found! Locations: %d - %d | width: %d\n", sig_location_start, sig_location_end, sig_location_end - sig_location_start);
+            //printf("Region of significant read depth found! Locations: %d - %d | width: %d\n", sig_location_start, sig_location_end, sig_location_end - sig_location_start);
+            printf("%s\t%d\t%d\n", scaffold, sig_location_start, sig_location_end);
             num_below_significant = 11;
             sig_location_start = 0;
             sig_location_end = 0;
