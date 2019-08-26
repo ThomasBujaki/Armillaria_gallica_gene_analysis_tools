@@ -1,0 +1,40 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Analysis Methods
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+This section will be a in-depth explanation of all methods used over the course of this class. For all programs discussed here see \url{https://github.com/ofbujak/Armillaria_gallica_gene_analysis_tools}.
+
+\subsection{Read Depth Snapshots}%done draft - needs editing/reviewing
+	The first work which I completed was the analysis of the read depth values for each of the 15 strains of the \textit{Armillaria gallica}. This work was based on analysis which Hao Wang had done previously to determine locations for each strain that had unusually high read depth. These locations are based on alignment to the reference. Unfortunally, we do not know the exact method which Hao had used to determine which locations he had deemed had significant read depth. Though we do not know the exact method he used, the regions he identified were those that had high read depth. He outputted his results into text files consisting of three columns, a scaffold number column, a location start column, and a location end column. These files had variable numbers of locations of high significance but they averaged approximatly 2636 locations per strain. With the goal to produce graphs of these locations of high read depth, in order to gain a understainding of the "landscape" about those locations, I first made up of the samtools \textit{depth} command in a program called make\_read\_depth\_files.sh
+
+make\_read\_depth\_files.sh will output a file which has three columns, scaffold, location, and read depth. Using these results I wrote a program, read\_depth\_per\_location.c, which will take in as arguments a specific samtools read depth file, a scaffold to search for, a start and end location (all space separated). read\_depth\_per\_location.c will then print information (scaffold, location, read depth, etc...) on the locations, incrementing by 1 from the start location, for all locations which are within the range passed into it. This program was used in plot\_all\_read\_depths.sh to produce graphs of each range of locations with high read depth $\pm$ 500. The program used to create the graphs was plot\_read\_depth.R. Some examples of these graphs can be found in figures \ref{avg_rd_snpsht_1} and \ref{avg_rd_snpsht_2}.
+	
+\subsection{Read Depths For Whole Scaffolds}
+	In order to produce depictions of the read depths for an entire scaffold the framework established to create the read depth snapshots was used with some slight changes in methodology. To produce these graphs the files produces from using the samtools \textit{depth} command were searched via grep in order to separate each scaffold result into its own file. These files were then passed into plot\_scaffold\_read\_depth.R and plot\_scaffold\_read\_depth\_histogram.R. plot\_scaffold\_read\_depth.R is a program which graphs the read depth on the y axis and the location of that read depth on the x axis. plot\_scaffold\_read\_depth\_histogram.R creates a histogram of the read depths with binwidths of 5. %The results for these section can be found in section \ref
+
+\subsection{Read Depth Analyses}
+	
+\subsection{Unaligned Reads}
+	
+\subsection{New Assemblies}
+	\subsubsection{De Novo Assemblies}
+	To produce new assemblies I attempted to do both \textit{de novo} assemblies of five of the strains (Ar170, Ar174, Ar179, Ar196, Ar213). To produce 
+	\subsubsection{Reference Based Assemblies}
+
+
+\subsection{Taking the Consensus of Read}
+
+\subsection{Compairisons of Read Depths}
+
+\subsection{Insertions and Deletions}
+
+	Kassandras stuff here.
+
+
+\end{document}

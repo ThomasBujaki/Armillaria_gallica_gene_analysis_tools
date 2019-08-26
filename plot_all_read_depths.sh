@@ -7,4 +7,4 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
     mv ${i}_${sequence}_read_depth.pdf read_depth_graphs/$sequence/
     rm ${i}_${sequence}
     i=$((i+1))
-done < "../sites_ctj/${sequence}_CTJ.txt"	
+done < "../sites_stdev_significant/${sequence}_significant_read_depths_4xstdv"	
