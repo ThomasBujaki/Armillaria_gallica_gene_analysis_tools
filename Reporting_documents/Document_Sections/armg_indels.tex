@@ -85,6 +85,10 @@ As seen in \ref{tab:sum_indel}, many indels are found throughout most if not all
 \end{center}
 \end{table}
 
+From the initial analysis of the indel locations, we decided to examine the length more in depth. We looked at the length of the indel because there was single nucleotide insertations and deletions that were found. The larger the indel, the more interest it is because these are considered less likely to be because of random insertations or deletions. A histogram was made to show the frequency found within the files of the length of the observed indels. 
+
+This was done by vcftools, in which we used the command "--hist-indel-len". This command was able to generate from the vcf files previously made, the length and the frequency of the indels for each strain. In the histograms, it can be seen that the largest indels were found to be single nucleotide bases. It was a bell-shaped or a normal distrubution, which is what to be expected. From these histograms, we decided to explore the extremities of the normal distrubution, with the largest indels found within in the algniments. It was found the largest deletion was approximately 52 nucleotides long and the largest insertion was approximately 45 nucleotides long.  
+
 
 \begin{figure}[H]
 	\begin{centering}
@@ -131,6 +135,9 @@ As seen in \ref{tab:sum_indel}, many indels are found throughout most if not all
 	\end{centering}
 \end{figure}
 	
+
+###FIX THESE###
+
 \begin{figure}[H]
 	\begin{centering}
 		\vspace{1.5cm}
