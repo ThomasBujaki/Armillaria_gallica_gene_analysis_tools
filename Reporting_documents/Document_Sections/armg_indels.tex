@@ -3,9 +3,9 @@
 \begin{document}
 \textbf{Indels in \textit{Armillaria gallica}}
 
-Through previous studies on the \textit{Armillaria gallica} fungus, several strains were sequenced in Illuminia. These strains were analyzed using samtools and an additional package called bcftools. 
+Through previous studies on the \textit{Armillaria gallica} fungus, several strains were sequenced in Illuminia. These strains were analyzed first using samtools, in order to generate a pileup file. A pileup file is a format used to summarize the bases of the aligned reads to the reference sequence. This acts a good visual display of SNP/INDEL calls and alignment. The pileup file generated here, used labels which would indicate: maximum number of reads supporting an INDEL, raw read depth, and the number of reads that support that INDEL. Once the pileup file had been generated with the appropriate labels and filters for INDEL specific calling, a software package called bcftools was than used.  
 
-Through the use of bcftools, labels were added to the output which indicated various other information about the indel found such as: maximum number of reads supporting an indel, raw read depth, the number of reads that support the indel and other information.
+BCFtools is a set of utilites that manipulate variant calls in the variant call format (VCF) and its binary counterpart (BCF). Through this, VCF and BCF files were generated which contained genotype frequencies from each of the strains .bam files. 
 
 As seen in \ref{tab:sum_indel}, many indels are found throughout most if not all of the strains analyzed. The summary table only shows the first three indels found within the each strain, however throughout the data, this is a repeated pattern. Indels are shown to be shared amongst the strains. 
 
@@ -85,6 +85,10 @@ As seen in \ref{tab:sum_indel}, many indels are found throughout most if not all
 \end{center}
 \end{table}
 
+From the initial analysis of the indel locations, we decided to examine the length more in depth. We looked at the length of the indel because there was single nucleotide insertations and deletions that were found. The larger the indel, the more interest it is because these are considered less likely to be because of random insertations or deletions. A histogram was made to show the frequency found within the files of the length of the observed indels. 
+
+This was done by vcftools, in which we used the command "--hist-indel-len". This command was able to generate from the vcf files previously made, the length and the frequency of the indels for each strain. In the histograms, it can be seen that the largest indels were found to be single nucleotide bases. It was a bell-shaped or a normal distrubution, which is what to be expected. From these histograms, we decided to explore the extremities of the normal distrubution, with the largest indels found within in the algniments. It was found the largest deletion was approximately 52 nucleotides long and the largest insertion was approximately 45 nucleotides long.  
+
 
 \begin{figure}[H]
 	\begin{centering}
@@ -131,6 +135,9 @@ As seen in \ref{tab:sum_indel}, many indels are found throughout most if not all
 	\end{centering}
 \end{figure}
 	
+
+###FIX THESE###
+
 \begin{figure}[H]
 	\begin{centering}
 		\vspace{1.5cm}
