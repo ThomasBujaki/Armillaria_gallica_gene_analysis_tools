@@ -3,9 +3,9 @@
 \begin{document}
 \textbf{Indels in \textit{Armillaria gallica}}
 
-Through previous studies on the \textit{Armillaria gallica} fungus, several strains were sequenced in Illuminia. These strains were analyzed using samtools and an additional package called bcftools. 
+Through previous studies on the \textit{Armillaria gallica} fungus, several strains were sequenced in Illuminia. These strains were analyzed first using samtools, in order to generate a pileup file. A pileup file is a format used to summarize the bases of the aligned reads to the reference sequence. This acts a good visual display of SNP/INDEL calls and alignment. The pileup file generated here, used labels which would indicate: maximum number of reads supporting an INDEL, raw read depth, and the number of reads that support that INDEL. Once the pileup file had been generated with the appropriate labels and filters for INDEL specific calling, a software package called bcftools was than used.  
 
-Through the use of bcftools, labels were added to the output which indicated various other information about the indel found such as: maximum number of reads supporting an indel, raw read depth, the number of reads that support the indel and other information.
+BCFtools is a set of utilites that manipulate variant calls in the variant call format (VCF) and its binary counterpart (BCF). Through this, VCF and BCF files were generated which contained genotype frequencies from each of the strains .bam files. 
 
 As seen in \ref{tab:sum_indel}, many indels are found throughout most if not all of the strains analyzed. The summary table only shows the first three indels found within the each strain, however throughout the data, this is a repeated pattern. Indels are shown to be shared amongst the strains. 
 
