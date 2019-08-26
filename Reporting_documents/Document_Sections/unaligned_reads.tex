@@ -1,0 +1,26 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Unaligned reads
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+It is possible that there are a number of reads which were so different from the reference sequences that they did not align onto the reference when Hao was working with them. This possibilty could mean that there would be reads which are from sequences in the big fungus that do not exist in the reference fungus genome. If this was the case than attempting a de novo alignment of these sequences could prove useful. 
+
+To see if there were unaligned reads I made use of a samtools command "samtools view -f 4 bamfile $>$ out.sam". 
+
+But there did not appear to be any reads which were not aligned. 
+
+
+August 9:
+
+I have found the original fastq sequences. After verifying that the sequences are all of high quality I have begun working on alignment of these sequences. I am working on a denovo alignment of them using Velvet and VelvetOptimisor, although becasue of the size of these sequences I need to use out labs computing cluster ( I left the programs to run overnight one night and had nothing to show for it, I suspect due to RAM limitations). 
+
+I also finished the work on the program which will parse a .sam file to get sequences between locations in a aligned sequence. I used this to pull all the sequences from all locations which Hao had determined were unusually high read depth. After picking one of the strains and attempting to do NCBI blastn (nucleotide blast) on about half of the sequences which had over 100 bases (many of the regions which Hao had identified as having high reads depth are extremely short sequences, some even being only 1 base long). I found that almost all of the sequences which I searched for had no hits, and the few that did have hits were only hits on mRNA sequences in random species.
+
+
+\end{document}

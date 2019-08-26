@@ -1,0 +1,120 @@
+\documentclass[12pt]{article}
+\usepackage[dvips]{epsfig}
+\usepackage{fleqn}
+\usepackage{amssymb,amstext}
+\usepackage{array}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{psfrag}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{caption2}
+\usepackage{url}
+\usepackage{fancyhdr}
+\usepackage{natbib}
+\usepackage{cancel}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+\usepackage{indentfirst}
+\usepackage{float}
+
+\usepackage{pdflscape}
+\usepackage{multirow}
+\usepackage{longtable}
+
+\usepackage{xcolor}
+
+\usepackage{subfiles}
+ 
+\usepackage{blindtext}
+
+
+%\usepackage[utf8]{inputenc}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=[rgb]{0,0.5,0.5},
+    linkcolor=black,
+    urlcolor=black
+}
+
+\renewcommand\listfigurename{}
+\renewcommand{\captionlabelfont}{\bf}
+\renewcommand{\captionlabeldelim}{.}
+\newcommand{\argmax}{\operatornamewithlimits{argmax}}
+\renewcommand{\baselinestretch}{2}
+\renewcommand\refname{References}
+\newcommand\crule[3][black]{\textcolor{#1}{\rule{#2}{#3}}}
+
+\setcounter{secnumdepth}{0}
+\makeatletter
+
+%\providecommand*{\input@path}{}
+%\g@addto@macro\input@path{{./level1//}{./level1/level2//}{./level2//}}
+%\makeatother
+
+%\renewcommand\section{\@startsection {section}{1}{\z@}%
+%                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+%                                   {2.3ex \@plus.2ex}%
+%                                   {\centering\normalfont\Large\scshape}}
+%\renewcommand\subsection{\@startsection {subsection}{1}{\z@}%
+%                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+%                                   {2.3ex \@plus.2ex}%
+%                                   {\normalfont\bf}}
+\renewcommand*\contentsname{}                                   
+\pagenumbering{gobble}                                   
+\begin{document}
+	
+	\pagenumbering{roman}
+
+	%Table of contents
+	\section{Table of Contents}
+	\tableofcontents
+	\newpage 
+
+	%List of figures
+	\section{List of Figures}
+	\listoffigures
+	\newpage
+
+	%List of tables 
+	\addcontentsline{toc}{section}{\listtablename}
+	\listoftables
+	\newpage
+	\pagenumbering{arabic}
+
+	\section{Read Depth Snapshots}
+	\subfile{Document_Sections/read_depth_snapshots.tex}
+	\newpage
+
+	%Read Depth Analyses
+	\section{Read Depth Analyses}
+	\subfile{Document_Sections/average_read_depths.tex}
+	\newpage
+
+%	\section{Sequence search for regions of high read depth}
+%	\subfile{}
+%	\newpage
+
+	\section{Unaligned Reads}	
+	\subfile{Document_Sections/unaligned_reads.tex}
+	\newpage
+
+	\section{Indel Analysis}
+	\subfile{Document_Sections/armg_indels.tex}
+	\newpage
+
+	% New section
+	%\section{New_Section_Name}
+	%\subfile{Document_Sections/New_Section_File.tex}
+	
+	\bibliography{main}
+	\bibliographystyle{linquiry2}
+
+\end{document}
