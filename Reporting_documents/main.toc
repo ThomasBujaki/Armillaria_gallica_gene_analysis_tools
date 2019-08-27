@@ -1,0 +1,22 @@
+\contentsline {section}{Table of Contents}{i}{section*.1}
+\contentsline {section}{List of Figures}{iii}{section*.3}
+\contentsline {section}{List of Tables}{iv}{section*.4}
+\contentsline {section}{Methods}{1}{section*.6}
+\contentsline {subsection}{Read Depth Snapshots}{1}{section*.7}
+\contentsline {subsection}{Read Depths For Whole Scaffolds}{2}{section*.8}
+\contentsline {subsection}{Read Depth Analyses}{2}{section*.9}
+\contentsline {subsection}{Unaligned Reads}{3}{section*.10}
+\contentsline {subsection}{New Assemblies}{3}{section*.11}
+\contentsline {subsubsection}{De Novo Assemblies}{3}{section*.12}
+\contentsline {subsubsection}{Reference Based Assemblies}{4}{section*.13}
+\contentsline {subsection}{Taking the Consensus of Aligned Read}{4}{section*.14}
+\contentsline {subsection}{Determiation of Regions Of High Read Depth}{4}{section*.15}
+\contentsline {subsection}{Compairisons of Read Depths}{4}{section*.16}
+\contentsline {subsection}{Analysis of DNA Sequences Suspected to Result in High Read Depths}{4}{section*.17}
+\contentsline {subsection}{Insertions and Deletions}{4}{section*.18}
+\contentsline {section}{Results}{5}{section*.19}
+\contentsline {section}{Read Depth Snapshots}{6}{section*.20}
+\contentsline {section}{Read Depth Analyses}{10}{section*.21}
+\contentsline {section}{Unaligned Reads}{17}{section*.22}
+\contentsline {section}{Indel Analysis}{19}{section*.23}
+\contentsline {section}{Future Directions}{26}{section*.24}
