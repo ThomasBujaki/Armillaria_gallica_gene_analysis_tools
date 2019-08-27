@@ -19,9 +19,10 @@ make\_read\_depth\_files.sh will output a file which has three columns, scaffold
 	In order to produce depictions of the read depths for an entire scaffold the framework established to create the read depth snapshots was used with some slight changes in methodology. To produce these graphs the files produces from using the samtools \textit{depth} command were searched via grep in order to separate each scaffold result into its own file. These files were then passed into plot\_scaffold\_read\_depth.R and plot\_scaffold\_read\_depth\_histogram.R. plot\_scaffold\_read\_depth.R is a program which graphs the read depth on the y axis and the location of that read depth on the x axis. plot\_scaffold\_read\_depth\_histogram.R creates a histogram of the read depths with binwidths of 5. %The results for these section can be found in section \ref
 
 \subsection{Read Depth Analyses}
-	
+	In order to gain insight into the different aspects of the scaffolds and the reads which were aligned I produced four metrics for each strain. I calculated the global average read depths, determined the total number of sites with reads aligned to them, calculated and graphed the average number of reads per scaffold, and graphed and determined the number of locations with reads aligned for each scaffold. 
+
 \subsection{Unaligned Reads}
-	
+	To output all reads which are not aligned into 
 \subsection{New Assemblies}
 	\subsubsection{De Novo Assemblies}
 	To produce new assemblies I attempted to do both \textit{de novo} assemblies of five of the strains (Ar170, Ar174, Ar179, Ar196, Ar213). To produce 
