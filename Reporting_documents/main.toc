@@ -10,13 +10,13 @@
 \contentsline {subsubsection}{De Novo Assemblies}{3}{section*.12}
 \contentsline {subsubsection}{Reference Based Assemblies}{4}{section*.13}
 \contentsline {subsection}{Taking the Consensus of Aligned Read}{4}{section*.14}
-\contentsline {subsection}{Determiation of Regions Of High Read Depth}{4}{section*.15}
-\contentsline {subsection}{Compairisons of Read Depths}{4}{section*.16}
-\contentsline {subsection}{Analysis of DNA Sequences Suspected to Result in High Read Depths}{4}{section*.17}
-\contentsline {subsection}{Insertions and Deletions}{4}{section*.18}
-\contentsline {section}{Results}{5}{section*.19}
-\contentsline {section}{Read Depth Snapshots}{6}{section*.20}
-\contentsline {section}{Read Depth Analyses}{10}{section*.21}
-\contentsline {section}{Unaligned Reads}{17}{section*.22}
-\contentsline {section}{Indel Analysis}{19}{section*.23}
-\contentsline {section}{Future Directions}{26}{section*.24}
+\contentsline {subsection}{Determiation of Regions Of High Read Depth}{5}{section*.15}
+\contentsline {subsection}{Compairisons of Read Depths}{5}{section*.16}
+\contentsline {subsection}{Analysis of DNA Sequences Suspected to Result in High Read Depths}{5}{section*.17}
+\contentsline {subsection}{Insertions and Deletions}{5}{section*.18}
+\contentsline {section}{Results}{6}{section*.19}
+\contentsline {section}{Read Depth Snapshots}{7}{section*.20}
+\contentsline {section}{Read Depth Analyses}{11}{section*.21}
+\contentsline {section}{Unaligned Reads}{18}{section*.22}
+\contentsline {section}{Indel Analysis}{20}{section*.23}
+\contentsline {section}{Future Directions}{27}{section*.24}

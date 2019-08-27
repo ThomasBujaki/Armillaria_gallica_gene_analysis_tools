@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.11)  27 AUG 2019 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.11)  27 AUG 2019 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,9 +628,12 @@ Non-PDF special ignored!
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [4] (./Document_Sections/analysis_methods.tex [1] [2] [3]) [4] [5] (./Document
-_Sections/read_depth_snapshots.tex
-<Figures/read_depth_snapsots/1_Ar109_read_depth.pdf, id=193, 505.89pt x 505.89p
+ [4] (./Document_Sections/analysis_methods.tex [1] [2] [3]
+
+LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 46.
+
+[4]) [5] [6] (./Document_Sections/read_depth_snapshots.tex
+<Figures/read_depth_snapsots/1_Ar109_read_depth.pdf, id=197, 505.89pt x 505.89p
 t>
 File: Figures/read_depth_snapsots/1_Ar109_read_depth.pdf Graphic file (type pdf
 )
@@ -638,7 +641,7 @@ File: Figures/read_depth_snapsots/1_Ar109_read_depth.pdf Graphic file (type pdf
 Package pdftex.def Info: Figures/read_depth_snapsots/1_Ar109_read_depth.pdf  us
 ed on input line 15.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/100_Ar109_read_depth.pdf, id=194, 505.89pt x 505.8
+<Figures/read_depth_snapsots/100_Ar109_read_depth.pdf, id=198, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/100_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -646,7 +649,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/100_Ar109_read_depth.pdf  
 used on input line 16.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/200_Ar109_read_depth.pdf, id=195, 505.89pt x 505.8
+<Figures/read_depth_snapsots/200_Ar109_read_depth.pdf, id=199, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/200_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -654,7 +657,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/200_Ar109_read_depth.pdf  
 used on input line 17.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/300_Ar109_read_depth.pdf, id=196, 505.89pt x 505.8
+<Figures/read_depth_snapsots/300_Ar109_read_depth.pdf, id=200, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/300_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -662,7 +665,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/300_Ar109_read_depth.pdf  
 used on input line 18.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/400_Ar109_read_depth.pdf, id=197, 505.89pt x 505.8
+<Figures/read_depth_snapsots/400_Ar109_read_depth.pdf, id=201, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/400_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -670,7 +673,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/400_Ar109_read_depth.pdf  
 used on input line 19.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/500_Ar109_read_depth.pdf, id=198, 505.89pt x 505.8
+<Figures/read_depth_snapsots/500_Ar109_read_depth.pdf, id=202, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/500_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -678,7 +681,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/500_Ar109_read_depth.pdf  
 used on input line 20.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/600_Ar109_read_depth.pdf, id=199, 505.89pt x 505.8
+<Figures/read_depth_snapsots/600_Ar109_read_depth.pdf, id=203, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/600_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -686,7 +689,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/600_Ar109_read_depth.pdf  
 used on input line 21.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/700_Ar109_read_depth.pdf, id=200, 505.89pt x 505.8
+<Figures/read_depth_snapsots/700_Ar109_read_depth.pdf, id=204, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/700_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -694,7 +697,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/700_Ar109_read_depth.pdf  
 used on input line 22.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/800_Ar109_read_depth.pdf, id=201, 505.89pt x 505.8
+<Figures/read_depth_snapsots/800_Ar109_read_depth.pdf, id=205, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/800_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -702,7 +705,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/800_Ar109_read_depth.pdf  
 used on input line 23.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/900_Ar109_read_depth.pdf, id=202, 505.89pt x 505.8
+<Figures/read_depth_snapsots/900_Ar109_read_depth.pdf, id=206, 505.89pt x 505.8
 9pt>
 File: Figures/read_depth_snapsots/900_Ar109_read_depth.pdf Graphic file (type p
 df)
@@ -710,7 +713,7 @@ df)
 Package pdftex.def Info: Figures/read_depth_snapsots/900_Ar109_read_depth.pdf  
 used on input line 24.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1000_Ar109_read_depth.pdf, id=203, 505.89pt x 505.
+<Figures/read_depth_snapsots/1000_Ar109_read_depth.pdf, id=207, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1000_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -718,7 +721,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1000_Ar109_read_depth.pdf 
  used on input line 25.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1100_Ar109_read_depth.pdf, id=204, 505.89pt x 505.
+<Figures/read_depth_snapsots/1100_Ar109_read_depth.pdf, id=208, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1100_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -726,7 +729,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1100_Ar109_read_depth.pdf 
  used on input line 26.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1200_Ar109_read_depth.pdf, id=205, 505.89pt x 505.
+<Figures/read_depth_snapsots/1200_Ar109_read_depth.pdf, id=209, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1200_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -734,7 +737,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1200_Ar109_read_depth.pdf 
  used on input line 27.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1300_Ar109_read_depth.pdf, id=206, 505.89pt x 505.
+<Figures/read_depth_snapsots/1300_Ar109_read_depth.pdf, id=210, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1300_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -742,7 +745,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1300_Ar109_read_depth.pdf 
  used on input line 28.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1400_Ar109_read_depth.pdf, id=207, 505.89pt x 505.
+<Figures/read_depth_snapsots/1400_Ar109_read_depth.pdf, id=211, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1400_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -750,7 +753,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1400_Ar109_read_depth.pdf 
  used on input line 29.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1500_Ar109_read_depth.pdf, id=208, 505.89pt x 505.
+<Figures/read_depth_snapsots/1500_Ar109_read_depth.pdf, id=212, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1500_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -758,7 +761,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1500_Ar109_read_depth.pdf 
  used on input line 30.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1600_Ar109_read_depth.pdf, id=209, 505.89pt x 505.
+<Figures/read_depth_snapsots/1600_Ar109_read_depth.pdf, id=213, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1600_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -766,7 +769,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1600_Ar109_read_depth.pdf 
  used on input line 31.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1700_Ar109_read_depth.pdf, id=210, 505.89pt x 505.
+<Figures/read_depth_snapsots/1700_Ar109_read_depth.pdf, id=214, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1700_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -774,7 +777,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1700_Ar109_read_depth.pdf 
  used on input line 32.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1800_Ar109_read_depth.pdf, id=211, 505.89pt x 505.
+<Figures/read_depth_snapsots/1800_Ar109_read_depth.pdf, id=215, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1800_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -782,7 +785,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1800_Ar109_read_depth.pdf 
  used on input line 33.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/1900_Ar109_read_depth.pdf, id=212, 505.89pt x 505.
+<Figures/read_depth_snapsots/1900_Ar109_read_depth.pdf, id=216, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/1900_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -790,7 +793,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/1900_Ar109_read_depth.pdf 
  used on input line 34.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2000_Ar109_read_depth.pdf, id=213, 505.89pt x 505.
+<Figures/read_depth_snapsots/2000_Ar109_read_depth.pdf, id=217, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2000_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -798,7 +801,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2000_Ar109_read_depth.pdf 
  used on input line 43.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2100_Ar109_read_depth.pdf, id=214, 505.89pt x 505.
+<Figures/read_depth_snapsots/2100_Ar109_read_depth.pdf, id=218, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2100_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -806,7 +809,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2100_Ar109_read_depth.pdf 
  used on input line 44.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2200_Ar109_read_depth.pdf, id=215, 505.89pt x 505.
+<Figures/read_depth_snapsots/2200_Ar109_read_depth.pdf, id=219, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2200_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -814,7 +817,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2200_Ar109_read_depth.pdf 
  used on input line 45.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2300_Ar109_read_depth.pdf, id=216, 505.89pt x 505.
+<Figures/read_depth_snapsots/2300_Ar109_read_depth.pdf, id=220, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2300_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -822,7 +825,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2300_Ar109_read_depth.pdf 
  used on input line 46.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2400_Ar109_read_depth.pdf, id=217, 505.89pt x 505.
+<Figures/read_depth_snapsots/2400_Ar109_read_depth.pdf, id=221, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2400_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -830,7 +833,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2400_Ar109_read_depth.pdf 
  used on input line 47.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2500_Ar109_read_depth.pdf, id=218, 505.89pt x 505.
+<Figures/read_depth_snapsots/2500_Ar109_read_depth.pdf, id=222, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2500_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -838,7 +841,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2500_Ar109_read_depth.pdf 
  used on input line 48.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2600_Ar109_read_depth.pdf, id=219, 505.89pt x 505.
+<Figures/read_depth_snapsots/2600_Ar109_read_depth.pdf, id=223, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2600_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -846,7 +849,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2600_Ar109_read_depth.pdf 
  used on input line 49.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2700_Ar109_read_depth.pdf, id=220, 505.89pt x 505.
+<Figures/read_depth_snapsots/2700_Ar109_read_depth.pdf, id=224, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2700_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -854,7 +857,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2700_Ar109_read_depth.pdf 
  used on input line 50.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2800_Ar109_read_depth.pdf, id=221, 505.89pt x 505.
+<Figures/read_depth_snapsots/2800_Ar109_read_depth.pdf, id=225, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2800_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -862,7 +865,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2800_Ar109_read_depth.pdf 
  used on input line 51.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/2900_Ar109_read_depth.pdf, id=222, 505.89pt x 505.
+<Figures/read_depth_snapsots/2900_Ar109_read_depth.pdf, id=226, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/2900_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -870,7 +873,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/2900_Ar109_read_depth.pdf 
  used on input line 52.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3000_Ar109_read_depth.pdf, id=223, 505.89pt x 505.
+<Figures/read_depth_snapsots/3000_Ar109_read_depth.pdf, id=227, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3000_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -878,7 +881,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3000_Ar109_read_depth.pdf 
  used on input line 53.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3100_Ar109_read_depth.pdf, id=224, 505.89pt x 505.
+<Figures/read_depth_snapsots/3100_Ar109_read_depth.pdf, id=228, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3100_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -886,7 +889,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3100_Ar109_read_depth.pdf 
  used on input line 54.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3200_Ar109_read_depth.pdf, id=225, 505.89pt x 505.
+<Figures/read_depth_snapsots/3200_Ar109_read_depth.pdf, id=229, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3200_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -894,7 +897,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3200_Ar109_read_depth.pdf 
  used on input line 55.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3300_Ar109_read_depth.pdf, id=226, 505.89pt x 505.
+<Figures/read_depth_snapsots/3300_Ar109_read_depth.pdf, id=230, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3300_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -902,7 +905,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3300_Ar109_read_depth.pdf 
  used on input line 56.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3400_Ar109_read_depth.pdf, id=227, 505.89pt x 505.
+<Figures/read_depth_snapsots/3400_Ar109_read_depth.pdf, id=231, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3400_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -910,7 +913,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3400_Ar109_read_depth.pdf 
  used on input line 57.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3500_Ar109_read_depth.pdf, id=228, 505.89pt x 505.
+<Figures/read_depth_snapsots/3500_Ar109_read_depth.pdf, id=232, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3500_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -918,7 +921,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3500_Ar109_read_depth.pdf 
  used on input line 58.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3600_Ar109_read_depth.pdf, id=229, 505.89pt x 505.
+<Figures/read_depth_snapsots/3600_Ar109_read_depth.pdf, id=233, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3600_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -926,7 +929,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3600_Ar109_read_depth.pdf 
  used on input line 59.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3700_Ar109_read_depth.pdf, id=230, 505.89pt x 505.
+<Figures/read_depth_snapsots/3700_Ar109_read_depth.pdf, id=234, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3700_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -934,7 +937,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3700_Ar109_read_depth.pdf 
  used on input line 60.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3800_Ar109_read_depth.pdf, id=231, 505.89pt x 505.
+<Figures/read_depth_snapsots/3800_Ar109_read_depth.pdf, id=235, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3800_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -942,7 +945,7 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3800_Ar109_read_depth.pdf 
  used on input line 61.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/read_depth_snapsots/3900_Ar109_read_depth.pdf, id=232, 505.89pt x 505.
+<Figures/read_depth_snapsots/3900_Ar109_read_depth.pdf, id=236, 505.89pt x 505.
 89pt>
 File: Figures/read_depth_snapsots/3900_Ar109_read_depth.pdf Graphic file (type 
 pdf)
@@ -950,9 +953,8 @@ pdf)
 Package pdftex.def Info: Figures/read_depth_snapsots/3900_Ar109_read_depth.pdf 
  used on input line 62.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
- [6]
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
+ [7] [8pdfTeX warning (ext4): destination with the same identifier (name{figure
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -971,7 +973,7 @@ read_depth.pdf> <./Figures/read_depth_snapsots/1400_Ar109_read_depth.pdf> <./Fi
 gures/read_depth_snapsots/1500_Ar109_read_depth.pdf> <./Figures/read_depth_snap
 sots/1600_Ar109_read_depth.pdf> <./Figures/read_depth_snapsots/1700_Ar109_read_
 depth.pdf> <./Figures/read_depth_snapsots/1800_Ar109_read_depth.pdf> <./Figures
-/read_depth_snapsots/1900_Ar109_read_depth.pdf>] [8pdfTeX warning (ext4): desti
+/read_depth_snapsots/1900_Ar109_read_depth.pdf>] [9pdfTeX warning (ext4): desti
 nation with the same identifier (name{figure.2}) has been already used, duplica
 te ignored
 
@@ -993,7 +995,7 @@ ead_depth.pdf> <./Figures/read_depth_snapsots/3500_Ar109_read_depth.pdf> <./Fig
 ures/read_depth_snapsots/3600_Ar109_read_depth.pdf> <./Figures/read_depth_snaps
 ots/3700_Ar109_read_depth.pdf> <./Figures/read_depth_snapsots/3800_Ar109_read_d
 epth.pdf> <./Figures/read_depth_snapsots/3900_Ar109_read_depth.pdf>]
-<Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_depth.pdf, id=447, 173
+<Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_depth.pdf, id=452, 173
 4.48pt x 650.43pt>
 File: Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_depth.pdf Graphic
  file (type pdf)
@@ -1002,7 +1004,7 @@ Package pdftex.def Info: Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_rea
 d_depth.pdf  used on input line 75.
 (pdftex.def)             Requested size: 1734.47578pt x 650.4284pt.
 <Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_depth_histogram.pdf, i
-d=448, 505.89pt x 505.89pt>
+d=453, 505.89pt x 505.89pt>
 File: Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_depth_histogram.p
 df Graphic file (type pdf)
 <use Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_depth_histogram.pd
@@ -1010,15 +1012,15 @@ f>
 Package pdftex.def Info: Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_rea
 d_depth_histogram.pdf  used on input line 76.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-) [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
-) has been already used, duplicate ignored
+) [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.105 	\newpage
                 <./Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_dept
 h.pdf> <./Figures/Scaffold_read_depth_graphs/Ar73_scaffold_1_read_depth_histogr
-am.pdf>] (./Document_Sections/average_read_depths.tex [10pdfTeX warning (ext4):
+am.pdf>] (./Document_Sections/average_read_depths.tex [11pdfTeX warning (ext4):
  destination with the same identifier (name{table.1}) has been already used, du
 plicate ignored
 
@@ -1026,83 +1028,83 @@ plicate ignored
                                                   \fi \fi 
 l.56 
      ]
-<Figures/Ar73_collected_no_comma_read_depth.pdf, id=475, 505.89pt x 505.89pt>
+<Figures/Ar73_collected_no_comma_read_depth.pdf, id=479, 505.89pt x 505.89pt>
 File: Figures/Ar73_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar73_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar73_collected_no_comma_read_depth.pdf  used o
 n input line 62.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar73_collected_no_comma_count.pdf, id=476, 505.89pt x 505.89pt>
+<Figures/Ar73_collected_no_comma_count.pdf, id=480, 505.89pt x 505.89pt>
 File: Figures/Ar73_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar73_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar73_collected_no_comma_count.pdf  used on inp
 ut line 63.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar109_collected_no_comma_read_depth.pdf, id=477, 505.89pt x 505.89pt>
+<Figures/Ar109_collected_no_comma_read_depth.pdf, id=481, 505.89pt x 505.89pt>
 File: Figures/Ar109_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar109_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar109_collected_no_comma_read_depth.pdf  used 
 on input line 64.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar109_collected_no_comma_count.pdf, id=478, 505.89pt x 505.89pt>
+<Figures/Ar109_collected_no_comma_count.pdf, id=482, 505.89pt x 505.89pt>
 File: Figures/Ar109_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar109_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar109_collected_no_comma_count.pdf  used on in
 put line 65.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar119_collected_no_comma_read_depth.pdf, id=479, 505.89pt x 505.89pt>
+<Figures/Ar119_collected_no_comma_read_depth.pdf, id=483, 505.89pt x 505.89pt>
 File: Figures/Ar119_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar119_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar119_collected_no_comma_read_depth.pdf  used 
 on input line 66.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar119_collected_no_comma_count.pdf, id=480, 505.89pt x 505.89pt>
+<Figures/Ar119_collected_no_comma_count.pdf, id=484, 505.89pt x 505.89pt>
 File: Figures/Ar119_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar119_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar119_collected_no_comma_count.pdf  used on in
 put line 67.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar142_collected_no_comma_read_depth.pdf, id=481, 505.89pt x 505.89pt>
+<Figures/Ar142_collected_no_comma_read_depth.pdf, id=485, 505.89pt x 505.89pt>
 File: Figures/Ar142_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar142_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar142_collected_no_comma_read_depth.pdf  used 
 on input line 77.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar142_collected_no_comma_count.pdf, id=482, 505.89pt x 505.89pt>
+<Figures/Ar142_collected_no_comma_count.pdf, id=486, 505.89pt x 505.89pt>
 File: Figures/Ar142_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar142_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar142_collected_no_comma_count.pdf  used on in
 put line 78.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar159_collected_no_comma_read_depth.pdf, id=483, 505.89pt x 505.89pt>
+<Figures/Ar159_collected_no_comma_read_depth.pdf, id=487, 505.89pt x 505.89pt>
 File: Figures/Ar159_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar159_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar159_collected_no_comma_read_depth.pdf  used 
 on input line 79.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar159_collected_no_comma_count.pdf, id=484, 505.89pt x 505.89pt>
+<Figures/Ar159_collected_no_comma_count.pdf, id=488, 505.89pt x 505.89pt>
 File: Figures/Ar159_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar159_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar159_collected_no_comma_count.pdf  used on in
 put line 80.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar170_collected_no_comma_read_depth.pdf, id=485, 505.89pt x 505.89pt>
+<Figures/Ar170_collected_no_comma_read_depth.pdf, id=489, 505.89pt x 505.89pt>
 File: Figures/Ar170_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar170_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar170_collected_no_comma_read_depth.pdf  used 
 on input line 81.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar170_collected_no_comma_count.pdf, id=486, 505.89pt x 505.89pt>
+<Figures/Ar170_collected_no_comma_count.pdf, id=490, 505.89pt x 505.89pt>
 File: Figures/Ar170_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar170_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar170_collected_no_comma_count.pdf  used on in
 put line 82.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
- [11]
+ [12]
 Overfull \vbox (27.45546pt too high) has occurred while \output is active []
 
 
-[12pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
+[13pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1112,37 +1114,37 @@ l.88 \end{figure}
 /Ar73_collected_no_comma_count.pdf> <./Figures/Ar109_collected_no_comma_read_de
 pth.pdf> <./Figures/Ar109_collected_no_comma_count.pdf> <./Figures/Ar119_collec
 ted_no_comma_read_depth.pdf> <./Figures/Ar119_collected_no_comma_count.pdf>]
-<Figures/Ar174_collected_no_comma_read_depth.pdf, id=531, 505.89pt x 505.89pt>
+<Figures/Ar174_collected_no_comma_read_depth.pdf, id=535, 505.89pt x 505.89pt>
 File: Figures/Ar174_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar174_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar174_collected_no_comma_read_depth.pdf  used 
 on input line 92.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar174_collected_no_comma_count.pdf, id=532, 505.89pt x 505.89pt>
+<Figures/Ar174_collected_no_comma_count.pdf, id=536, 505.89pt x 505.89pt>
 File: Figures/Ar174_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar174_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar174_collected_no_comma_count.pdf  used on in
 put line 93.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar175_collected_no_comma_read_depth.pdf, id=533, 505.89pt x 505.89pt>
+<Figures/Ar175_collected_no_comma_read_depth.pdf, id=537, 505.89pt x 505.89pt>
 File: Figures/Ar175_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar175_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar175_collected_no_comma_read_depth.pdf  used 
 on input line 94.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar175_collected_no_comma_count.pdf, id=534, 505.89pt x 505.89pt>
+<Figures/Ar175_collected_no_comma_count.pdf, id=538, 505.89pt x 505.89pt>
 File: Figures/Ar175_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar175_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar175_collected_no_comma_count.pdf  used on in
 put line 95.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar176_collected_no_comma_read_depth.pdf, id=535, 505.89pt x 505.89pt>
+<Figures/Ar176_collected_no_comma_read_depth.pdf, id=539, 505.89pt x 505.89pt>
 File: Figures/Ar176_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar176_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar176_collected_no_comma_read_depth.pdf  used 
 on input line 96.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar176_collected_no_comma_count.pdf, id=536, 505.89pt x 505.89pt>
+<Figures/Ar176_collected_no_comma_count.pdf, id=540, 505.89pt x 505.89pt>
 File: Figures/Ar176_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar176_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar176_collected_no_comma_count.pdf  used on in
@@ -1152,7 +1154,7 @@ put line 97.
 Overfull \vbox (27.45546pt too high) has occurred while \output is active []
 
 
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1162,37 +1164,37 @@ l.103 \end{figure}
 es/Ar142_collected_no_comma_count.pdf> <./Figures/Ar159_collected_no_comma_read
 _depth.pdf> <./Figures/Ar159_collected_no_comma_count.pdf> <./Figures/Ar170_col
 lected_no_comma_read_depth.pdf> <./Figures/Ar170_collected_no_comma_count.pdf>]
-<Figures/Ar179_collected_no_comma_read_depth.pdf, id=577, 505.89pt x 505.89pt>
+<Figures/Ar179_collected_no_comma_read_depth.pdf, id=582, 505.89pt x 505.89pt>
 File: Figures/Ar179_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar179_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar179_collected_no_comma_read_depth.pdf  used 
 on input line 107.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar179_collected_no_comma_count.pdf, id=578, 505.89pt x 505.89pt>
+<Figures/Ar179_collected_no_comma_count.pdf, id=583, 505.89pt x 505.89pt>
 File: Figures/Ar179_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar179_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar179_collected_no_comma_count.pdf  used on in
 put line 108.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar188_collected_no_comma_read_depth.pdf, id=579, 505.89pt x 505.89pt>
+<Figures/Ar188_collected_no_comma_read_depth.pdf, id=584, 505.89pt x 505.89pt>
 File: Figures/Ar188_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar188_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar188_collected_no_comma_read_depth.pdf  used 
 on input line 109.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar188_collected_no_comma_count.pdf, id=580, 505.89pt x 505.89pt>
+<Figures/Ar188_collected_no_comma_count.pdf, id=585, 505.89pt x 505.89pt>
 File: Figures/Ar188_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar188_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar188_collected_no_comma_count.pdf  used on in
 put line 110.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar194_collected_no_comma_read_depth.pdf, id=581, 505.89pt x 505.89pt>
+<Figures/Ar194_collected_no_comma_read_depth.pdf, id=586, 505.89pt x 505.89pt>
 File: Figures/Ar194_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar194_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar194_collected_no_comma_read_depth.pdf  used 
 on input line 111.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar194_collected_no_comma_count.pdf, id=582, 505.89pt x 505.89pt>
+<Figures/Ar194_collected_no_comma_count.pdf, id=587, 505.89pt x 505.89pt>
 File: Figures/Ar194_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar194_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar194_collected_no_comma_count.pdf  used on in
@@ -1202,7 +1204,7 @@ put line 112.
 Overfull \vbox (27.45546pt too high) has occurred while \output is active []
 
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1212,37 +1214,37 @@ l.118 \end{figure}
 es/Ar174_collected_no_comma_count.pdf> <./Figures/Ar175_collected_no_comma_read
 _depth.pdf> <./Figures/Ar175_collected_no_comma_count.pdf> <./Figures/Ar176_col
 lected_no_comma_read_depth.pdf> <./Figures/Ar176_collected_no_comma_count.pdf>]
-<Figures/Ar196_collected_no_comma_read_depth.pdf, id=624, 505.89pt x 505.89pt>
+<Figures/Ar196_collected_no_comma_read_depth.pdf, id=629, 505.89pt x 505.89pt>
 File: Figures/Ar196_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar196_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar196_collected_no_comma_read_depth.pdf  used 
 on input line 122.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar196_collected_no_comma_count.pdf, id=625, 505.89pt x 505.89pt>
+<Figures/Ar196_collected_no_comma_count.pdf, id=630, 505.89pt x 505.89pt>
 File: Figures/Ar196_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar196_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar196_collected_no_comma_count.pdf  used on in
 put line 123.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar201_collected_no_comma_read_depth.pdf, id=626, 505.89pt x 505.89pt>
+<Figures/Ar201_collected_no_comma_read_depth.pdf, id=631, 505.89pt x 505.89pt>
 File: Figures/Ar201_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar201_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar201_collected_no_comma_read_depth.pdf  used 
 on input line 124.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar201_collected_no_comma_count.pdf, id=627, 505.89pt x 505.89pt>
+<Figures/Ar201_collected_no_comma_count.pdf, id=632, 505.89pt x 505.89pt>
 File: Figures/Ar201_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar201_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar201_collected_no_comma_count.pdf  used on in
 put line 125.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar213_collected_no_comma_read_depth.pdf, id=628, 505.89pt x 505.89pt>
+<Figures/Ar213_collected_no_comma_read_depth.pdf, id=633, 505.89pt x 505.89pt>
 File: Figures/Ar213_collected_no_comma_read_depth.pdf Graphic file (type pdf)
 <use Figures/Ar213_collected_no_comma_read_depth.pdf>
 Package pdftex.def Info: Figures/Ar213_collected_no_comma_read_depth.pdf  used 
 on input line 126.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar213_collected_no_comma_count.pdf, id=629, 505.89pt x 505.89pt>
+<Figures/Ar213_collected_no_comma_count.pdf, id=634, 505.89pt x 505.89pt>
 File: Figures/Ar213_collected_no_comma_count.pdf Graphic file (type pdf)
 <use Figures/Ar213_collected_no_comma_count.pdf>
 Package pdftex.def Info: Figures/Ar213_collected_no_comma_count.pdf  used on in
@@ -1252,7 +1254,7 @@ put line 127.
 Overfull \vbox (27.45546pt too high) has occurred while \output is active []
 
 
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1266,7 +1268,7 @@ lected_no_comma_read_depth.pdf> <./Figures/Ar194_collected_no_comma_count.pdf>]
 Overfull \vbox (27.45546pt too high) has occurred while \output is active []
 
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1276,17 +1278,17 @@ l.134 \newpage
 r196_collected_no_comma_count.pdf> <./Figures/Ar201_collected_no_comma_read_dep
 th.pdf> <./Figures/Ar201_collected_no_comma_count.pdf> <./Figures/Ar213_collect
 ed_no_comma_read_depth.pdf> <./Figures/Ar213_collected_no_comma_count.pdf>])
-(./Document_Sections/unaligned_reads.tex) [17] [18]
+(./Document_Sections/unaligned_reads.tex) [18] [19]
 (./Document_Sections/armg_indels.tex
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
 
  []
 
-[19]
+[20]
 Overfull \vbox (5.45598pt too high) has occurred while \output is active []
 
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
+[21pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1294,32 +1296,32 @@ has been already used, duplicate ignored
 l.87 F
       rom the initial analysis of the indel locations, we decided to examine...
 ]
-<Figures/Ar109_histogram.pdf, id=730, 505.89pt x 505.89pt>
+<Figures/Ar109_histogram.pdf, id=735, 505.89pt x 505.89pt>
 File: Figures/Ar109_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar109_histogram.pdf>
 Package pdftex.def Info: Figures/Ar109_histogram.pdf  used on input line 92.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar119_histogram.pdf, id=731, 505.89pt x 505.89pt>
+<Figures/Ar119_histogram.pdf, id=736, 505.89pt x 505.89pt>
 File: Figures/Ar119_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar119_histogram.pdf>
 Package pdftex.def Info: Figures/Ar119_histogram.pdf  used on input line 93.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar142_histogram.pdf, id=732, 505.89pt x 505.89pt>
+<Figures/Ar142_histogram.pdf, id=737, 505.89pt x 505.89pt>
 File: Figures/Ar142_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar142_histogram.pdf>
 Package pdftex.def Info: Figures/Ar142_histogram.pdf  used on input line 94.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar159_histogram.pdf, id=733, 505.89pt x 505.89pt>
+<Figures/Ar159_histogram.pdf, id=738, 505.89pt x 505.89pt>
 File: Figures/Ar159_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar159_histogram.pdf>
 Package pdftex.def Info: Figures/Ar159_histogram.pdf  used on input line 95.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar170_histogram.pdf, id=734, 505.89pt x 505.89pt>
+<Figures/Ar170_histogram.pdf, id=739, 505.89pt x 505.89pt>
 File: Figures/Ar170_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar170_histogram.pdf>
 Package pdftex.def Info: Figures/Ar170_histogram.pdf  used on input line 96.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar174_histogram.pdf, id=735, 505.89pt x 505.89pt>
+<Figures/Ar174_histogram.pdf, id=740, 505.89pt x 505.89pt>
 File: Figures/Ar174_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar174_histogram.pdf>
 Package pdftex.def Info: Figures/Ar174_histogram.pdf  used on input line 97.
@@ -1329,41 +1331,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--103
 
  []
 
-<Figures/Ar175_histogram.pdf, id=736, 505.89pt x 505.89pt>
+<Figures/Ar175_histogram.pdf, id=741, 505.89pt x 505.89pt>
 File: Figures/Ar175_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar175_histogram.pdf>
 Package pdftex.def Info: Figures/Ar175_histogram.pdf  used on input line 107.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar176_histogram.pdf, id=737, 505.89pt x 505.89pt>
+<Figures/Ar176_histogram.pdf, id=742, 505.89pt x 505.89pt>
 File: Figures/Ar176_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar176_histogram.pdf>
 Package pdftex.def Info: Figures/Ar176_histogram.pdf  used on input line 108.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar179_histogram.pdf, id=738, 505.89pt x 505.89pt>
+<Figures/Ar179_histogram.pdf, id=743, 505.89pt x 505.89pt>
 File: Figures/Ar179_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar179_histogram.pdf>
 Package pdftex.def Info: Figures/Ar179_histogram.pdf  used on input line 109.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar188_histogram.pdf, id=739, 505.89pt x 505.89pt>
+<Figures/Ar188_histogram.pdf, id=744, 505.89pt x 505.89pt>
 File: Figures/Ar188_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar188_histogram.pdf>
 Package pdftex.def Info: Figures/Ar188_histogram.pdf  used on input line 110.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar194_histogram.pdf, id=740, 505.89pt x 505.89pt>
+<Figures/Ar194_histogram.pdf, id=745, 505.89pt x 505.89pt>
 File: Figures/Ar194_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar194_histogram.pdf>
 Package pdftex.def Info: Figures/Ar194_histogram.pdf  used on input line 111.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar196_histogram.pdf, id=741, 505.89pt x 505.89pt>
+<Figures/Ar196_histogram.pdf, id=746, 505.89pt x 505.89pt>
 File: Figures/Ar196_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar196_histogram.pdf>
 Package pdftex.def Info: Figures/Ar196_histogram.pdf  used on input line 112.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-[21]
+[22]
 Overfull \vbox (10.61856pt too high) has occurred while \output is active []
 
 
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1372,17 +1374,17 @@ l.118 \end{figure}
                    <./Figures/Ar109_histogram.pdf> <./Figures/Ar119_histogram.p
 df> <./Figures/Ar142_histogram.pdf> <./Figures/Ar159_histogram.pdf> <./Figures/
 Ar170_histogram.pdf> <./Figures/Ar174_histogram.pdf>]
-<Figures/Ar201_histogram.pdf, id=781, 505.89pt x 505.89pt>
+<Figures/Ar201_histogram.pdf, id=785, 505.89pt x 505.89pt>
 File: Figures/Ar201_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar201_histogram.pdf>
 Package pdftex.def Info: Figures/Ar201_histogram.pdf  used on input line 122.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar213_histogram.pdf, id=782, 505.89pt x 505.89pt>
+<Figures/Ar213_histogram.pdf, id=786, 505.89pt x 505.89pt>
 File: Figures/Ar213_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar213_histogram.pdf>
 Package pdftex.def Info: Figures/Ar213_histogram.pdf  used on input line 123.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/Ar73_histogram.pdf, id=783, 505.89pt x 505.89pt>
+<Figures/Ar73_histogram.pdf, id=787, 505.89pt x 505.89pt>
 File: Figures/Ar73_histogram.pdf Graphic file (type pdf)
 <use Figures/Ar73_histogram.pdf>
 Package pdftex.def Info: Figures/Ar73_histogram.pdf  used on input line 124.
@@ -1391,7 +1393,7 @@ Package pdftex.def Info: Figures/Ar73_histogram.pdf  used on input line 124.
 Overfull \vbox (10.62215pt too high) has occurred while \output is active []
 
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1400,34 +1402,34 @@ l.130 \end{figure}
                    <./Figures/Ar175_histogram.pdf> <./Figures/Ar176_histogram.p
 df> <./Figures/Ar179_histogram.pdf> <./Figures/Ar188_histogram.pdf> <./Figures/
 Ar194_histogram.pdf> <./Figures/Ar196_histogram.pdf>]
-<Figures/1_DP_locations.pdf, id=818, 505.89pt x 505.89pt>
+<Figures/1_DP_locations.pdf, id=822, 505.89pt x 505.89pt>
 File: Figures/1_DP_locations.pdf Graphic file (type pdf)
 <use Figures/1_DP_locations.pdf>
 Package pdftex.def Info: Figures/1_DP_locations.pdf  used on input line 135.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/50_DP_locations.pdf, id=819, 505.89pt x 505.89pt>
+<Figures/50_DP_locations.pdf, id=823, 505.89pt x 505.89pt>
 File: Figures/50_DP_locations.pdf Graphic file (type pdf)
 <use Figures/50_DP_locations.pdf>
 Package pdftex.def Info: Figures/50_DP_locations.pdf  used on input line 136.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/100_DP_locations.pdf, id=820, 505.89pt x 505.89pt>
+<Figures/100_DP_locations.pdf, id=824, 505.89pt x 505.89pt>
 File: Figures/100_DP_locations.pdf Graphic file (type pdf)
 <use Figures/100_DP_locations.pdf>
 Package pdftex.def Info: Figures/100_DP_locations.pdf  used on input line 137.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
-<Figures/211_DP_locations.pdf, id=821, 505.89pt x 505.89pt>
+<Figures/211_DP_locations.pdf, id=825, 505.89pt x 505.89pt>
 File: Figures/211_DP_locations.pdf Graphic file (type pdf)
 <use Figures/211_DP_locations.pdf>
 Package pdftex.def Info: Figures/211_DP_locations.pdf  used on input line 138.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
- [24pdfTeX warning (ext4): destination with the same identifier (name{figure.11
+ [25pdfTeX warning (ext4): destination with the same identifier (name{figure.11
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.145 
        <./Figures/Ar201_histogram.pdf> <./Figures/Ar213_histogram.pdf> <./Figur
-es/Ar73_histogram.pdf>]) [25pdfTeX warning (ext4): destination with the same id
+es/Ar73_histogram.pdf>]) [26pdfTeX warning (ext4): destination with the same id
 entifier (name{figure.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1437,7 +1439,7 @@ l.122 	\newpage
 <./Figures/100_DP_locations.pdf> <./Figures/211_DP_locations.pdf>]
 No file main.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-[26]
+[27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
@@ -1447,9 +1449,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
  ) 
 Here is how much of TeX's memory you used:
- 10242 strings out of 492982
- 166005 string characters out of 6134895
- 266103 words of memory out of 5000000
+ 10243 strings out of 492982
+ 166012 string characters out of 6134895
+ 266104 words of memory out of 5000000
  13448 multiletter control sequences out of 15000+600000
  10996 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1461,10 +1463,10 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (30 pages, 7413557 bytes).
+Output written on main.pdf (31 pages, 7415910 bytes).
 PDF statistics:
- 911 PDF objects out of 1000 (max. 8388607)
- 683 compressed objects within 7 object streams
- 69 named destinations out of 1000 (max. 500000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 687 compressed objects within 7 object streams
+ 70 named destinations out of 1000 (max. 500000)
  632 words of extra memory for PDF output out of 10000 (max. 10000000)
 
