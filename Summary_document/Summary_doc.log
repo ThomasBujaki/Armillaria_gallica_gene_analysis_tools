@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.11)  28 AUG 2019 20:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.11)  28 AUG 2019 20:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -628,17 +628,10 @@ Non-PDF special ignored!
 
 LaTeX Warning: Characters dropped after `\end{verbatim}' on input line 121.
 
-[4] [5] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 148.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 148.
+[4] [5]
 </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_too
 ls/Reporting_documents/Figures/read_depth_snapshot_images/ctj/0_Ar109_read_dept
-h.pdf, id=101, 505.89pt x 505.89pt>
+h.pdf, id=113, 505.89pt x 505.89pt>
 File: /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysi
 s_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/0_Ar109_read
 _depth.pdf Graphic file (type pdf)
@@ -651,7 +644,7 @@ es/ctj/0_Ar109_read_depth.pdf  used on input line 167.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_too
 ls/Reporting_documents/Figures/read_depth_snapshot_images/ctj/5_Ar109_read_dept
-h.pdf, id=102, 505.89pt x 505.89pt>
+h.pdf, id=114, 505.89pt x 505.89pt>
 File: /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysi
 s_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/5_Ar109_read
 _depth.pdf Graphic file (type pdf)
@@ -664,7 +657,7 @@ es/ctj/5_Ar109_read_depth.pdf  used on input line 168.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_too
 ls/Reporting_documents/Figures/read_depth_snapshot_images/ctj/155_Ar109_read_de
-pth.pdf, id=103, 505.89pt x 505.89pt>
+pth.pdf, id=115, 505.89pt x 505.89pt>
 File: /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysi
 s_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/155_Ar109_re
 ad_depth.pdf Graphic file (type pdf)
@@ -677,7 +670,7 @@ es/ctj/155_Ar109_read_depth.pdf  used on input line 169.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
 </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_too
 ls/Reporting_documents/Figures/read_depth_snapshot_images/ctj/173_Ar109_read_de
-pth.pdf, id=104, 505.89pt x 505.89pt>
+pth.pdf, id=116, 505.89pt x 505.89pt>
 File: /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysi
 s_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/173_Ar109_re
 ad_depth.pdf Graphic file (type pdf)
@@ -688,28 +681,68 @@ Package pdftex.def Info: /home/thomas/Directed_Studies_Summer_2019/Armillaria_g
 allica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_imag
 es/ctj/173_Ar109_read_depth.pdf  used on input line 170.
 (pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
- [7]
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+ [6] [7pdfTeX warning (ext4): destination with the same identifier (name{figure
+.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.228 
+       </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analy
+sis_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/0_Ar109_re
+ad_depth.pdf> </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gen
+e_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/5_A
+r109_read_depth.pdf> </home/thomas/Directed_Studies_Summer_2019/Armillaria_gall
+ica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/
+ctj/155_Ar109_read_depth.pdf> </home/thomas/Directed_Studies_Summer_2019/Armill
+aria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapsho
+t_images/ctj/173_Ar109_read_depth.pdf>]
+</home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_too
+ls/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf, id=151,
+ 505.89pt x 505.89pt>
+File: /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysi
+s_tools/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf Gra
+phic file (type pdf)
+<use /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis
+_tools/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf>
+Package pdftex.def Info: /home/thomas/Directed_Studies_Summer_2019/Armillaria_g
+allica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma
+_read_depth.pdf  used on input line 233.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+</home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_too
+ls/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf, id=152, 505.
+89pt x 505.89pt>
+File: /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysi
+s_tools/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf Graphic 
+file (type pdf)
+<use /home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis
+_tools/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf>
+Package pdftex.def Info: /home/thomas/Directed_Studies_Summer_2019/Armillaria_g
+allica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma
+_count.pdf  used on input line 234.
+(pdftex.def)             Requested size: 505.88875pt x 505.88875pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.192 	\newpage
-                </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_g
-ene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/0
-_Ar109_read_depth.pdf> </home/thomas/Directed_Studies_Summer_2019/Armillaria_ga
-llica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_image
-s/ctj/5_Ar109_read_depth.pdf> </home/thomas/Directed_Studies_Summer_2019/Armill
-aria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapsho
-t_images/ctj/155_Ar109_read_depth.pdf> </home/thomas/Directed_Studies_Summer_20
-19/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_dept
-h_snapshot_images/ctj/173_Ar109_read_depth.pdf>] [9] [10] [11]
+l.249 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.249 
+       </home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analy
+sis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf> 
+</home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_too
+ls/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf>] [9]
+[10] [11] [12]
 No file Summary_doc.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
 (./Summary_doc.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
 
 
 Package rerunfilecheck Warning: File `Summary_doc.out' has changed.
@@ -717,21 +750,18 @@ Package rerunfilecheck Warning: File `Summary_doc.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Summary_doc.out':
-(rerunfilecheck)             Before: 0251DA92DE22307F3C4E1A3EB8C5D1A3;1162
-(rerunfilecheck)             After:  304BF8C3F499AD2B069A78EFE4E37044;1477.
+(rerunfilecheck)             Before: 29F395A90C87745431B1C8126DD8F3A1;1393
+(rerunfilecheck)             After:  3FEB55A71368BD65D440302024622420;1531.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 224.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 297.
  ) 
 Here is how much of TeX's memory you used:
- 9743 strings out of 492982
- 145418 string characters out of 6134895
- 243261 words of memory out of 5000000
- 13096 multiletter control sequences out of 15000+600000
+ 9746 strings out of 492982
+ 146655 string characters out of 6134895
+ 247493 words of memory out of 5000000
+ 13095 multiletter control sequences out of 15000+600000
  10637 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  37i,10n,43p,1167b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -741,10 +771,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Summary_doc.pdf (11 pages, 125122 bytes).
+Output written on Summary_doc.pdf (12 pages, 140847 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 221 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

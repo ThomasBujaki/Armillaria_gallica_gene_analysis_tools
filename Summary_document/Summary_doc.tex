@@ -142,19 +142,19 @@ make\_read\_depth\_files.sh will output a file which has three columns, scaffold
 	Kassandras stuff here.
 
 
-\section{main}
-All the stuff Thomas did:
-\begin{itemize}
-	\item read depth snapshots - check!
-	\item average read depth stuff
-	\item total number of aligned reads
-	\item program to take mode of reads
-	\item scaffold graphing program
-	\item read depth differences program
-	\item assemblies
-	\item blasting stuff
-	\item RNA verification
-\end{itemize}
+%\section{main}
+%All the stuff Thomas did:
+%\begin{itemize}
+%	\item read depth snapshots - check!
+%	\item average read depth stuff
+%	\item total number of aligned reads
+%	\item program to take mode of reads
+%	\item scaffold graphing program
+%	\item read depth differences program
+%	\item assemblies
+%	\item blasting stuff
+%	\item RNA verification
+%\end{itemize}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %	Read Depth Snapshot
@@ -181,7 +181,93 @@ All the stuff Thomas did:
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Average Read Depth}
-	Due to the large quantity of data present in each bam or fastq file we had to make use of the 
+	Due to the large quantity of data present in each bam or fastq file we made use of the meta data of the aligned reads in the form of the average number of aligned reads. We calcualted the average for each strain and scaffold individually, and also calculated the global average read depth. Locations that did not have any reads aligned to them were not taken into accout. The global average read depths are shown in table \ref{globavgrd} and a example of the average read depth per scaffold and the number of aligned reads for each scaffold are graphed in figure \ref{109avgcountgraph}.
+\begin{table}[H]
+	\begin{center}
+		\captionof{table}{Gobal Average Read Depths and Number of Reads for Each Strain} \label{globavgrd}
+		\vspace{0.5cm}
+		\scalebox{.7}{
+		\begin{tabular}{ |c|c|c| }
+			\hline
+			Strain & Global Average Read Depth & Total Global Number of Reads \\
+			\hline
+			Ar73 & 111.0507 & 69955093\\
+			\hline
+			Ar109 & 117.6863 & 70143802\\
+			\hline
+			Ar119 & 112.4868 & 70015910\\
+			\hline
+			Ar142 & 109.3741 & 70068064\\
+			\hline
+			Ar159 & 104.3773 & 69875550\\
+			\hline
+			Ar170 & 112.3987 & 70033946\\
+			\hline
+			Ar174 & 113.4283 & 70022954\\
+			\hline
+			Ar175 & 73.79959 & 69545937\\
+			\hline
+			Ar176 & 73.21531 & 69583274\\
+			\hline
+			Ar179 & 117.2196 & 70061598\\
+			\hline
+			Ar188 & 63.61699 & 68627951\\
+			\hline
+			Ar194 & 67.88522 & 69488072\\
+			\hline
+			Ar196 & 113.9182 & 70027951\\
+			\hline
+			Ar201 & 68.39596 & 69488227\\
+			\hline
+			Ar213 & 110.9612 & 69988055\\
+			\hline
+		\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+
+\begin{figure}[H]
+	\begin{centering}
+
+		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf}}
+		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf}}\\
+		\begin{singlespace}
+			\vspace{-0.5cm}
+			\caption[Average Read Depth Per scaffold, strain Ar109.]{Average Read Depth Per scaffold and nubmer of aligned reads per scaffold, strain Ar109. (left) average read depth, (right) number of aligned reads.}\label{109avgcountgraph}
+		\end{singlespace}
+	\end{centering}
+\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Consensus of Aligned Reads
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Consensus of Aligned Reads}
+	Between the identification of locations where there were indels and having many locations where significantlly high read depths were found it would be useful to know what the sequence at a region. To do this a series of programs were created which could take in a indexed bam file, a scaffold, a start location, and an end location. This program would then output the mode of all reads aligned within that region. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	Graphing Read Depth Across Scaffolds
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Graphing Read Depth Across Scaffolds}
+	To take a birds eye view of the read depth for each scaffold, we separated each scaffold read depths into their own files and graphed the individial scaffold read depth. The scaffolds vary in size greatly, as can be seen in figure \ref{109avgcountgraph}. Shown below are scaffolds 1 and 200 for strain Ar109 and the histograms of the read depths.
+
+\begin{figure}[H]
+	\begin{centering}
+
+		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf}}
+		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf}}\\
+		\begin{singlespace}
+			\vspace{-0.5cm}
+			\caption[Average Read Depth Per scaffold, strain Ar109.]{Average Read Depth Per scaffold and nubmer of aligned reads per scaffold, strain Ar109. (left) average read depth, (right) number of aligned reads.}\label{109avgcountgraph}
+		\end{singlespace}
+	\end{centering}
+\end{figure}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %	Read Depth Analyses
@@ -196,7 +282,7 @@ All the stuff Thomas did:
 %	Unaligned Reads
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\section{Unaligned Reads}	
+	\section{Unaligned Reads}
 	%\subfile{Document_Sections/unaligned_reads.tex}
 	\newpage
 
