@@ -286,9 +286,9 @@
 \vspace{-1cm}
 \section{Indel Analysis}
 \vspace{-0.5cm}
-In order to start exploring InDels, a mpileup file was made for all 15 strains. This was done by using the command in samtools \textit{mpileup}. A pileup file is a text-based format for summarizing the calls of aligned reads to the reference sequence. This format also allows for visual displays of SNP/indel calling and alignments. Once, a pileup file was produced. It is at this point, where output tags were included into the data. These output tags will indicate the read depth, quality score and also anything else that may be of use for analysis.  A package called \textit{BCFtools} was implemented. BCFtools is a set of utilities that manipulate variant calls in the variant call format (vcf) as well as its binary counterpart (bcf). The pileup file was indexed using the command \textit{bcftools index}. This creates an index of the sequence from the pileup file. After this is done, we use the command \textit{bcftools call}, which is the variant calling. This will call the indels in this case and produce a .vcf and a .bcf file which show the indels and their locations. The script which does this process is called \textit{ctq\_reads\_find\_indels.sh}. 
+In order to start exploring indels, a mpileup file was made for all 15 strains. This was done by using the command in samtools \textit{mpileup}. A pileup file is a text-based format for summarizing the calls of aligned reads to the reference sequence. This format also allows for visual displays of SNP/indel calling and alignments. Once, a pileup file was produced. It is at this point, where output tags were included into the output data files. These output tags indicated the read depth, quality score and also anything else that may be of use for future analysis.  A package called \textit{BCFtools} was implemented. BCFtools is a set of utilities that manipulate variant calls in the variant call format (vcf) as well as its binary counterpart (bcf). The pileup file was indexed using the command \textit{bcftools index}. This created an index of the sequence from the pileup file. After this is done, we used the command \textit{bcftools call}, which allowed for variant calling. This called the indels as well as produced a .vcf and a .bcf file which indicated the indels and their respestive locations. The script which executes this is called \textit{ctq\_reads\_find\_indels.sh}. 
 
-It appears at first glance that there was many indels detected that were the same throughout the strains as seen in \ref{tab:sum_indel}. The summary table only shows the first three indels found within each strain, however throughout the data, this is a repeated pattern. 
+It appears at first glance that there were many indels detected that were the same throughout the strains as seen in \ref{tab:sum_indel}. The summary table only shows the first three indels found within each strain, however throughout the data, this is a repeated pattern. 
 
 \begin{table}[H]
 	\begin{center}
@@ -368,7 +368,7 @@ It appears at first glance that there was many indels detected that were the sam
 
 \subsection{Read Depth of Indels}
 
-Read depth or sequence depth was one of the output tags that we added to the pileup file previously. Read depth was important in this analysis thus, we decided to explore them as part of the indel analysis. Since, it was already one of the output tags we previously added, it was a very simple as to extract the datapoint with the corresponding scaffold and location. These were plotted as to see which regions or scaffolds had the highest read depth and to see if the read depth overall was appropriate for further directions.
+Read depth or sequence depth was one of the output tags that we added into the pileup file previously. Read depth was important in this analysis thus, we decided to explore them as part of the indel analysis. Since, it was already one of the output tags we previously added, it was a very simple as to extract the datapoint with the corresponding scaffold and location. These were plotted as to see which regions or scaffolds had the highest read depth and to see if the read depth overall was appropriate for further directions.
 
 It was shown that there was good read depth generally throughout the scaffolds. The larger the scaffold, the more indels occurred however, the read depth still holds to be good. 
 
@@ -388,7 +388,7 @@ It was shown that there was good read depth generally throughout the scaffolds. 
 
 \subsection{Indel Lengths}  
 
-Since given the read depths, it was shown that it would be appropriate to move forward. The next step we did was analyze the difference lengths of indels. This was done by using a very simple command from the package vcftools, the command was \textit{--hist-indel-len}. This gave a very crude histogram as well as the counts for each indel at each length. From this data we created a better visualization of the data. 
+Since it was shown that the read depth were good, it was appropriate to move forward. The next step we did was analyze the different lengths of indels. This was done by using a very simple command from the package vcftools, the command was \textit{--hist-indel-len}. This gave a very crude histogram as well as the counts for each indel at each length. From this data we created a better visualization of the data. 
 
 It can be seen that the smaller the indel, the more frequent it occurs. This holds true throughout the strains that were tested.
 
