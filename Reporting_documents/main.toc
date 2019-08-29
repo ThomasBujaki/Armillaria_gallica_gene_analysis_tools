@@ -10,11 +10,11 @@
 \contentsline {subsubsection}{De Novo Assemblies}{3}{section*.12}
 \contentsline {subsubsection}{Reference Based Assemblies}{4}{section*.13}
 \contentsline {subsection}{Taking the Consensus of Aligned Read}{4}{section*.14}
-\contentsline {subsection}{Determiation of Regions Of High Read Depth}{5}{section*.15}
-\contentsline {subsection}{Compairisons of Read Depths}{5}{section*.16}
-\contentsline {subsection}{Analysis of DNA Sequences Suspected to Result in High Read Depths}{5}{section*.17}
-\contentsline {subsection}{Insertions and Deletions}{5}{section*.18}
-\contentsline {section}{Results}{6}{section*.19}
+\contentsline {subsection}{Calculation of Average Read Depth and Number of Aligned Reads per Scaffold}{5}{section*.15}
+\contentsline {subsection}{Determiation of Regions Of High Read Depth}{5}{section*.16}
+\contentsline {subsection}{Compairisons of Read Depths}{6}{section*.17}
+\contentsline {subsection}{Analysis of DNA Sequences Suspected to Result in High Read Depths}{6}{section*.18}
+\contentsline {subsection}{Insertions and Deletions}{6}{section*.19}
 \contentsline {section}{Read Depth Snapshots}{7}{section*.20}
 \contentsline {section}{Read Depth Analyses}{11}{section*.21}
 \contentsline {section}{Unaligned Reads}{18}{section*.22}
