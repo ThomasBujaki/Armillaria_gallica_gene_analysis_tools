@@ -43,7 +43,7 @@ int main(int argc, char* argv[])
     FILE* file2 = fopen(file_name, "r");
     while (!feof(file2)) {
         fscanf(file, "%s %d %d\n", scaffold, &location, &read_depth);
-        if (abs(read_depth) > scaffold_average + 2 * std_dev) {
+        if (abs(read_depth) > scaffold_average + 5 * std_dev) {
             //printf("1scaffold: %s, location: %d, read_depth: %d, avg+stdev: %f\n", scaffold, location, read_depth, scaffold_average + std_dev);
             num_below_significant = 0;
             if (!sig_location_start) {
