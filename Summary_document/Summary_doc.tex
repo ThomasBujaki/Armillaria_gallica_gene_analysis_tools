@@ -165,9 +165,9 @@
 
 \begin{figure}[H]
 	\begin{centering}
-
-		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf}}
-		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf}}\\
+\vspace{-0.5cm}
+		\resizebox{60mm}{60mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_read_depth.pdf}}
+		\resizebox{60mm}{60mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf}}\\
 		\begin{singlespace}
 			\vspace{-0.5cm}
 			\caption[Average Read Depth Per scaffold, strain Ar109.]{Average Read Depth Per scaffold and number of aligned reads per scaffold, strain Ar109. (left) average read depth, (right) number of aligned reads.}\label{109avgcountgraph}
@@ -183,7 +183,7 @@
 \vspace{-0.5cm}
 \section{Identifying Regions of High Read Depth}
 \vspace{-0.5cm}
-	There were two issues with the methodology Hao used to identify regions of high read depth. The first was that if the read depth peaked over the threshold for only a few locations then it would be captured in his search. This resulted in many locations of significance ranging only a few nucleotides. The second issue was that if the region of significance dipped below the search threshold then immediately rose up above then a region which should have been contiguous results in two regions identified. We attempted to solve this second issue by creating our own significant read depth search program. This program searched for all locations which were five times the standard deviation above the mean read depth for that scaffold and outputted those regions. The program also allowed for a customisable \textit{grace} period (set to 10 locations currently) where if the read depth at a location drops below the threshold for less than the grace period then the regions is treated as contiguous. An example of a read depth snapshot is shown below in figure \ref{rdsnpstdevgrace}.
+	There were two issues with the methodology Hao used to identify regions of high read depth. The first issue involved cases where the read depth peaked over the search threshold for a small number of locations, this small region would be collected as given the same weight as a larger region regardless of the significance of the short read. This resulted in many locations of apparent significance ranging only a few nucleotides. The second issue was that if a region of significance dipped below the search threshold, then immediately rose back to the level of significance, then a region which should have been contiguous results in two separate regions being identified. We attempted to solve this second issue by creating our own significant read depth search program. This program searched for all locations which were five times the standard deviation above the mean read depth for that scaffold and outputted those regions. The program also allowed for a customisable grace period (set to 10 locations currently) where if the read depth at a location drops below the threshold for less than the grace period then the regions surrounding the dip is treated as contiguous. An example of a read depth snapshot with this issue is shown below in figure \ref{rdsnpstdevgrace}.
 \begin{figure}[H]
 	\begin{centering}
 		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/68_Ar109_read_depth.pdf}}
@@ -203,7 +203,7 @@
 \vspace{-0.5cm}
 \section{Consensus of Aligned Reads}
 \vspace{-0.5cm}
-	Between the identification of locations where there were indels and having many locations were significantly higher read depths were found it would be useful to know what the sequence at a region. To do this a series of programs were created which could take in an indexed bam file, a scaffold, a start location, and an end location. This program would then output the mode of all reads aligned within that region. 
+	Between the identification of locations where there were indels and having many locations of significant read depth we found it necessary to know what the sequence between two locations may be. To do this a series of programs were created which could take in an indexed bam file, a scaffold, a start location, and an end location. This program would then output the mode of all reads aligned within that region. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -213,11 +213,10 @@
 \vspace{-0.5cm}
 \section{Graphing Read Depth Across Scaffolds}
 \vspace{-0.5cm}
-	To take a birds eye view of the read depth for each scaffold, we separated each scaffold read depths into their own files and graphed the individual scaffold read depth. The scaffolds vary in size greatly, as can be seen in figure \ref{109avgcountgraph}. Shown below in figure \ref{wholescaffandhisto}are scaffolds 1 and 200 for strain Ar109 and the histograms of the read depths.
+	To take a birds eye view of the read depth for each scaffold, we separated each scaffold read depths into their own files and graphed the individual scaffold read depth. The scaffolds vary in size greatly, as can be seen in figure \ref{109avgcountgraph}. Shown below in figure \ref{wholescaffandhisto} are scaffolds 1 and 200 for strain Ar109 and the histograms of the read depths.
 
 \begin{figure}[H]
 	\begin{centering}
-
 		\resizebox{110mm}{45mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/whole_scaffold_images/Ar109_scaffold_10_read_depth.pdf}}
 		\resizebox{45mm}{45mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/whole_scaffold_images/Ar109_scaffold_10_read_depth_histogram.pdf}}\\
 		\resizebox{110mm}{45mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/whole_scaffold_images/Ar109_scaffold_150_read_depth.pdf}}
@@ -237,7 +236,7 @@
 \vspace{-0.5cm}
 \section{Read Depth Differences Between Strains}
 \vspace{-0.5cm}
-	To compare the read depths between strains we created a program which would iterate over two read depth files and output the differences in read depth at all locations. Due to the similarity of the output from this program to the input used in the program to find significant read depths we were able to perform the analysis same analysis outlined in the section on identifying regions of high read depth. These sequences could then graphed and blasted.
+	To compare the read depths between strains we created a program which would iterate over two read depth files and output the differences in read depth at all locations. Due to the similarity of the output from this program to the input used in the program to find significant read depths, we were able to perform the same analysis outlined in the section on identifying regions of high read depth. These sequences could then graphed and searched via blasted.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -249,7 +248,7 @@
 \vspace{-0.5cm}
 	The bam files which we were able to work with were created using reference based assembly, but the unaligned reads were stripped from the file. One of the experiments which we wanted to carry out was to create an assembly of the unaligned reads and to see how those 15 assemblies may have compared to each other. In order to gain access to these reads we attempted new reference based assemblies using five of the 15 strains. Although these assemblies have been completed, they have not been analyzed yet due to time constraints.
 
-	We also attempted de novo assemblies of five of the 15 fastq sequences we had. These de novo assemblies were carried out using Velvet and VelvetOptimiser, using default settings. Unfortunately the results from these assemblies were of low quality. The largest contig was roughly 5000 bases and the total number of contigs was over 150,000. In the future we will attempt to determine why these de novo assemblies turned out so poorly.
+	We also attempted de novo assemblies of five of the 15 fastq sequences we had. These de novo assemblies were carried out using Velvet and VelvetOptimiser, using default settings. Unfortunately the results from these assemblies were of low quality. The largest contig was roughly 5000 bases and the total number of contigs was over 150,000. In the future we will attempt to determine why these de novo assemblies turned out so poorly. We also attempted to combine some of the sequences into a single large fastq file. We are in the process of creating a de novo assembly of this large file.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -259,7 +258,7 @@
 \vspace{-0.5cm}
 \section{Sequence Identification With Blastn}
 \vspace{-0.5cm}
-	Making use of the identified regions of high read depth and the program which can extract sequences from the bam file we were able to use blastn to attempt to determine the function of the different notable sequences. Due to the high number of sequences we were only able to search a small fraction of the total, and the results from those searches were inconclusive. Nearly all of the sequences searched had no hits and the few that did were mainly mRNA sequences. We determined that there is a method to carry out multiple blastn searches quickly, although we have not yet been able to make the program needed for this function. When we can get this method working we will be able to carry out an automated blast search of any sequence we find interesting.   
+	Making use of the identified regions of high read depth and the program which can extract sequences from bam files, we were able to use blastn to attempt to determine the function of the different notable sequences. Due to the high number of sequences we were only able to search a small fraction of the total, and the results from those searches were inconclusive. Nearly all of the sequences searched had no hits and the few that did were mainly mRNA sequences. We determined that there is a method to carry out multiple blastn searches quickly, although we have not yet been able to make the program needed for this to function. When we can get this method working we will be able to carry out an automated blast search of any sequence we find interesting.   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -269,7 +268,7 @@
 \vspace{-0.5cm}
 \section{RNA Verification of Blast Method}
 \vspace{-0.5cm}
-	Due to the low number of significant blast results, we attempted to very this method of search by attempting to find a sequence which we know to be present in \textit{Armillaria Gallica}. Specifically we obtained a partial 18S rRNA sequence for the fungus \textit{Aspergillus niger} that was roughly 1700 nucleotides long, and blasted that sequence against the reference genome for \textit{Armillaria Gallica} on the joint Genome Institute Fungal Genomics Resource website. This blast returned a hit for a small region on scaffold 10 (scaffold 10:994951-995150), although this region was only 199 nucleotides in length. When we searched for this region in our scaffold snapshot graphs we were able to find that it was identified as a region of notable read depth by our system. The read depth snapshot for this range is shown in figure \ref{rdsnp18Srrna}. The total ribosomal DNA for \textit{Armillaria Gallica} should be larger than 10kb although and the 18S subunit should be larger than 3kb. We did complete a search for the entire ribosomal DNA sequence but the best we could find was a partial 28S sequence and a partial 18S/28S sequence which when blasting against the reference we found no matches. A portion of individual 28S subunit could be verified in the same method as used for the 18S subunit, but the larger 18S/28S gene could not be found. We suspect that the reference does not include the whole ribosomal DNA sequence and it may be that the ribosomal sequences present in the 15 strains of \textit{Armillaria Gallica} are contained in the unaligned reads. 
+	Due to the low number of significant blast results, we attempted to verify this method of sequence identification by attempting to find a sequence which we know to be present in \textit{Armillaria Gallica}. Specifically we obtained a partial 18S rRNA sequence for the fungus \textit{Aspergillus niger} that was roughly 1700 nucleotides long, and blasted that sequence against the reference genome for \textit{Armillaria Gallica} on the Joint Genome Institute Fungal Genomics Resource website. This blast returned a hit for a small region on scaffold 10 (scaffold 10:994951-995150), although this region was only 199 nucleotides in length. When we searched for this region in our scaffold snapshot graphs we were able to find that it was identified as a region of notable read depth by our system. The read depth snapshot for this range is shown in figure \ref{rdsnp18Srrna}. The total ribosomal DNA for \textit{Armillaria Gallica} should be larger than 10kb and the 18S subunit should be larger than 3kb. We did complete a search on ncbi for the entire ribosomal DNA sequence but we could only find partial 28S sequences and partial 18S/28S sequences. When blasting the partial 18S/28S sequence against the reference we found no matches. A portion of partial 28S subunit could be verified using the same method used for the 18S subunit. We suspect that the reference file does not include the whole ribosomal DNA sequence and it may be that the ribosomal sequences present in the 15 strains of \textit{Armillaria Gallica} are contained in the unaligned reads following reference based assembly. 
       \begin{figure}[H]
 	\begin{centering}
 \resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/433_Ar109_read_depth.pdf}}
@@ -289,7 +288,7 @@
 \vspace{-0.5cm}
 In order to start exploring InDels, a mpileup file was made for all 15 strains. This was done by using the command in samtools \textit{mpileup}. A pileup file is a text-based format for summarizing the calls of aligned reads to the reference sequence. This format also allows for visual displays of SNP/indel calling and alignments. Once, a pileup file was produced. It is at this point, where output tags were included into the data. These output tags will indicate the read depth, quality score and also anything else that may be of use for analysis.  A package called \textit{BCFtools} was implemented. BCFtools is a set of utilities that manipulate variant calls in the variant call format (vcf) as well as its binary counterpart (bcf). The pileup file was indexed using the command \textit{bcftools index}. This creates an index of the sequence from the pileup file. After this is done, we use the command \textit{bcftools call}, which is the variant calling. This will call the indels in this case and produce a .vcf and a .bcf file which show the indels and their locations. The script which does this process is called \textit{ctq\_reads\_find\_indels.sh}. 
 
-It appears at first glance that there was many indels detected that were the same throughout the strains as seen in \ref{tab:sum_indel}. The summary table only shows the first three indels found within the each strain, however throughout the data, this is a repeated pattern. 
+It appears at first glance that there was many indels detected that were the same throughout the strains as seen in \ref{tab:sum_indel}. The summary table only shows the first three indels found within each strain, however throughout the data, this is a repeated pattern. 
 
 \begin{table}[H]
 	\begin{center}
@@ -369,9 +368,9 @@ It appears at first glance that there was many indels detected that were the sam
 
 \subsection{Read Depth of Indels}
 
-Read depth or sequence depth was one of the output tags that we added to the pileup file previously. Read depth was important in this analysis thus, we decided to explore the them as part of the indel analysis. Since, it was already one of the output tags we previously added, it was a very simple as to extract the datapoint with the corresponding scaffold and location. These were plotted as to see which regions or scaffolds had the highest read depth and to see if the read depth overall was appropriate for further directions.
+Read depth or sequence depth was one of the output tags that we added to the pileup file previously. Read depth was important in this analysis thus, we decided to explore them as part of the indel analysis. Since, it was already one of the output tags we previously added, it was a very simple as to extract the datapoint with the corresponding scaffold and location. These were plotted as to see which regions or scaffolds had the highest read depth and to see if the read depth overall was appropriate for further directions.
 
-It was shown that there was good read depth generally throughout the scaffolds. The larger the scaffold, the more indels occured however, the read depth still holds to be good. 
+It was shown that there was good read depth generally throughout the scaffolds. The larger the scaffold, the more indels occurred however, the read depth still holds to be good. 
 
 \begin{figure}[H]
 	\begin{centering}
@@ -389,7 +388,7 @@ It was shown that there was good read depth generally throughout the scaffolds. 
 
 \subsection{Indel Lengths}  
 
-Since given the read depths, it was shown that it would be appropriate to move forward. The next step we did was analyze the difference lengths of the indels. This was done by using a very simple command from the package vcftools, the command was \textit{--hist-indel-len}. This gave a very crude histogram as well as the counts for each indel at each length. From this data we created a better visualization of the data. 
+Since given the read depths, it was shown that it would be appropriate to move forward. The next step we did was analyze the difference lengths of indels. This was done by using a very simple command from the package vcftools, the command was \textit{--hist-indel-len}. This gave a very crude histogram as well as the counts for each indel at each length. From this data we created a better visualization of the data. 
 
 It can be seen that the smaller the indel, the more frequent it occurs. This holds true throughout the strains that were tested.
 
@@ -406,9 +405,9 @@ It can be seen that the smaller the indel, the more frequent it occurs. This hol
 \end{figure}
  
  
-In the histograms, it can be seen that the largest indels were found to be single nucleotide bases. It was a bell-shaped or a normal distrubution, which is what to be expected. From this, we focused on the extremities of the indels. We explored on the largest insertions detected. We extracted the sequences and the 5 nucleotides that flanked each end, and BLAST-ed these against the NCBI database.  
+In the histograms, it can be seen that the largest indels were found to be single nucleotide bases. It was a bell-shaped or a normal distribution, which is what to be expected. From this, we focused on the extremities of indels. We explored on the largest insertions detected. We extracted the sequences and the 5 nucleotides that flanked each end, and BLAST-ed these against the NCBI database.  
 
-Many of the BLAST searchs came back as empty however, there were a couple of hits throughout the data. We also found many repeated elements within the indel analysis. One BLAST hit that was further looked into was at position 117162 at scaffold 98. It was 44 nucleotides long, which still is not that large in the grand scheme of indels. However, it was a perfect match against \textit{Streptomyces actuosus}. This indel was found in 8 of the 15 strains that were tested. Using the literature, we indicated where this indel was found on the spatial map as well as the phylogeny.
+Many of the BLAST searches came back as empty however, there were a couple of hits throughout the data. We also found many repeated elements within the indel analysis. One BLAST hit that was further looked into was at position 117162 at scaffold 98. It was 44 nucleotides long, which still is not that large in the grand scheme of indels. However, it was a perfect match against \textit{Streptomyces actuosus}. This indel was found in 8 of the 15 strains that were tested. Using the literature, we indicated where this indel was found on the spatial map as well as the phylogeny.
  
  
 \begin{figure}[H]
@@ -475,5 +474,6 @@ In order to show a better representation, we included the actual sequence of the
 \end{itemize}
 
 \end{document}
+
 
 
