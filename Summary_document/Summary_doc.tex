@@ -255,20 +255,21 @@
 %	Sequence Identification With Blastn
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{-0.5cm}
+\vspace{-2cm}
 \section{Sequence Identification With Blastn}
 \vspace{-0.5cm}
 	Making use of the identified regions of high read depth and the program which can extract sequences from bam files, we were able to use blastn to attempt to determine the function of the different notable sequences. Due to the high number of sequences we were only able to search a small fraction of the total, and the results from those searches were inconclusive. Nearly all of the sequences searched had no hits and the few that did were mainly mRNA sequences. We determined that there is a method to carry out multiple blastn searches quickly, although we have not yet been able to make the program needed for this to function. When we can get this method working we will be able to carry out an automated blast search of any sequence we find interesting.   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%	Sequence Identification With Blastn
+%	RNA Verification of Blast Method
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{-0.5cm}
+\vspace{-1cm}
 \section{RNA Verification of Blast Method}
 \vspace{-0.5cm}
 	Due to the low number of significant blast results, we attempted to verify this method of sequence identification by attempting to find a sequence which we know to be present in \textit{Armillaria Gallica}. Specifically we obtained a partial 18S rRNA sequence for the fungus \textit{Aspergillus niger} that was roughly 1700 nucleotides long, and blasted that sequence against the reference genome for \textit{Armillaria Gallica} on the Joint Genome Institute Fungal Genomics Resource website. This blast returned a hit for a small region on scaffold 10 (scaffold 10:994951-995150), although this region was only 199 nucleotides in length. When we searched for this region in our scaffold snapshot graphs we were able to find that it was identified as a region of notable read depth by our system. The read depth snapshot for this range is shown in figure \ref{rdsnp18Srrna}. The total ribosomal DNA for \textit{Armillaria Gallica} should be larger than 10kb and the 18S subunit should be larger than 3kb. We did complete a search on ncbi for the entire ribosomal DNA sequence but we could only find partial 28S sequences and partial 18S/28S sequences. When blasting the partial 18S/28S sequence against the reference we found no matches. A portion of partial 28S subunit could be verified using the same method used for the 18S subunit. We suspect that the reference file does not include the whole ribosomal DNA sequence and it may be that the ribosomal sequences present in the 15 strains of \textit{Armillaria Gallica} are contained in the unaligned reads following reference based assembly. 
+			\vspace{-.5cm}
       \begin{figure}[H]
 	\begin{centering}
 \resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/433_Ar109_read_depth.pdf}}
@@ -283,7 +284,7 @@
 %	Indel Analysis
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\vspace{-1cm}
+\vspace{-1.25cm}
 \section{Indel Analysis}
 \vspace{-0.5cm}
 In order to start exploring indels, a mpileup file was made for all 15 strains. This was done by using the command in samtools \textit{mpileup}. A pileup file is a text-based format for summarizing the calls of aligned reads to the reference sequence. This format also allows for visual displays of SNP/indel calling and alignments. Once, a pileup file was produced. It is at this point, where output tags were included into the output data files. These output tags indicated the read depth, quality score and also anything else that may be of use for future analysis.  A package called \textit{BCFtools} was implemented. BCFtools is a set of utilities that manipulate variant calls in the variant call format (vcf) as well as its binary counterpart (bcf). The pileup file was indexed using the command \textit{bcftools index}. This created an index of the sequence from the pileup file. After this is done, we used the command \textit{bcftools call}, which allowed for variant calling. This called the indels as well as produced a .vcf and a .bcf file which indicated the indels and their respestive locations. The script which executes this is called \textit{ctq\_reads\_find\_indels.sh}. 
@@ -292,10 +293,11 @@ It appears at first glance that there were many indels detected that were the sa
 
 \begin{table}[H]
 	\begin{center}
-		\vspace{-1cm}
+		\vspace{-0.75cm}
 		\begin{singlespace}
+
 			\captionof{table}[Summary Indel Table]{A summary table of the first three indels found in each of the strains which includes the scaffold number, the location at which the indel is found, the number of reads that support that indel, and the raw read depth\\} \label{tab:sum_indel}
-			\scalebox{.7}{
+			\scalebox{.6}{
 				\begin{tabular}{ |c|c|c|c|c|c|c| } 
 					\hline
 					Strain No. & Scaffold No. & Location & No. of Reads Supporting & Raw Read Depth \\
