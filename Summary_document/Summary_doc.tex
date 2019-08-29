@@ -94,7 +94,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Read Depth Snapshots}
-	In order to gain a understanding of how the locaitons which Hao had determined had notably high read depth the regions Hao identified were graphed. There were approximatly between 2000 and 4000 regions for each of the 15 strains. Although there were many graphs four predomanant types of high read depth regions stood out: Normal, Rectangular, Right skewed, and Left skewed.
+	In order to gain an understanding of how the locations which Hao had determined had notably high read depth the regions Hao identified were graphed. There were approximately between 2000 and 4000 regions for each of the 15 strains. Although there were many graphs four predominant types of high read depth regions stood out: Normal, Rectangular, Right skewed, and Left skewed.
 \begin{figure}[H]
 	\begin{centering}
 		\resizebox{40mm}{40mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/ctj/0_Ar109_read_depth.pdf}}
@@ -114,10 +114,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Average Read Depth}
-	Due to the large quantity of data present in each bam or fastq file we made use of the meta data of the aligned reads in the form of the average number of aligned reads. We calcualted the average for each strain and scaffold individually, and also calculated the global average read depth. Locations that did not have any reads aligned to them were not taken into accout. The global average read depths are shown in table \ref{globavgrd} and a example of the average read depth per scaffold and the number of aligned reads for each scaffold are graphed in figure \ref{109avgcountgraph}.
+	Due to the large quantity of data present in each bam or fastq file we made use of the meta data of the aligned reads in the form of the average number of aligned reads. We calculated the average for each strain and scaffold individually, and also calculated the global average read depth. Locations that did not have any reads aligned to them were not taken into account. The global average read depths are shown in table \ref{globavgrd} and an example of the average read depth per scaffold and the number of aligned reads for each scaffold are graphed in figure \ref{109avgcountgraph}.
 \begin{table}[H]
 	\begin{center}
-		\captionof{table}{Gobal Average Read Depths and Number of Reads for Each Strain} \label{globavgrd}
+		\captionof{table}{Global Average Read Depths and Number of Reads for Each Strain} \label{globavgrd}
 		\vspace{0.5cm}
 		\scalebox{.7}{
 		\begin{tabular}{ |c|c|c| }
@@ -166,7 +166,7 @@
 		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/Ar109_collected_no_comma_count.pdf}}\\
 		\begin{singlespace}
 			\vspace{-0.5cm}
-			\caption[Average Read Depth Per scaffold, strain Ar109.]{Average Read Depth Per scaffold and nubmer of aligned reads per scaffold, strain Ar109. (left) average read depth, (right) number of aligned reads.}\label{109avgcountgraph}
+			\caption[Average Read Depth Per scaffold, strain Ar109.]{Average Read Depth Per scaffold and number of aligned reads per scaffold, strain Ar109. (left) average read depth, (right) number of aligned reads.}\label{109avgcountgraph}
 		\end{singlespace}
 	\end{centering}
 \end{figure}
@@ -177,14 +177,14 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Identifying Regions of High Read Depth}
-	There were two issues with the methodology Hao used to identify regions of high read depth. The first was that if the read depth peaked over the theshold for only a few locations then it would be captured in his search. This resulted in many locations of significance ranging only a few nucleotides. The second issue was that if the region of significance dipped below the search threshold then immeadiatly rose up above then a region which should have been contigious results in two regions identified. We attempted to solve this second issue by creating out own significant read depth search program. This program searched for all locations which were five times the standard deviation above the mean read depth for that scaffold and outputted those regions. The program also allowed for a customisable \textit{grace} peroid (set to 10 locations currently) where if the read depth at a loation drops below the threshold for less than the grace peroid then the regions is treated as contigious. An example of a read depth snapshot is shown below in figure \ref{rdsnpstdevgrace}.
+	There were two issues with the methodology Hao used to identify regions of high read depth. The first was that if the read depth peaked over the threshold for only a few locations then it would be captured in his search. This resulted in many locations of significance ranging only a few nucleotides. The second issue was that if the region of significance dipped below the search threshold then immediately rose up above then a region which should have been contiguous results in two regions identified. We attempted to solve this second issue by creating our own significant read depth search program. This program searched for all locations which were five times the standard deviation above the mean read depth for that scaffold and outputted those regions. The program also allowed for a customisable \textit{grace} period (set to 10 locations currently) where if the read depth at a location drops below the threshold for less than the grace period then the regions is treated as contiguous. An example of a read depth snapshot is shown below in figure \ref{rdsnpstdevgrace}.
 \begin{figure}[H]
 	\begin{centering}
 		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/68_Ar109_read_depth.pdf}}
 		\resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/40_Ar109_read_depth.pdf}}\\
 		\begin{singlespace}
 			\vspace{-0.5cm}
-			\caption[Significant Read Depth Identification Differeneces.]{Significant Read Depth Identification Differeneces. (left) Hao's method breaks the hill into two parts, (right) method with grace peroid captures intact read depth hill.}\label{rdsnpstdevgrace}
+			\caption[Significant Read Depth Identification Differences.]{Significant Read Depth Identification Differences. (left) Hao's method breaks the hill into two parts, (right) method with grace period captures intact read depth hill.}\label{rdsnpstdevgrace}
 		\end{singlespace}
 	\end{centering}
 \end{figure}
@@ -195,7 +195,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Consensus of Aligned Reads}
-	Between the identification of locations where there were indels and having many locations where significantlly high read depths were found it would be useful to know what the sequence at a region. To do this a series of programs were created which could take in a indexed bam file, a scaffold, a start location, and an end location. This program would then output the mode of all reads aligned within that region. 
+	Between the identification of locations where there were indels and having many locations were significantly higher read depths were found it would be useful to know what the sequence at a region. To do this a series of programs were created which could take in an indexed bam file, a scaffold, a start location, and an end location. This program would then output the mode of all reads aligned within that region. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -204,7 +204,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Graphing Read Depth Across Scaffolds}
-	To take a birds eye view of the read depth for each scaffold, we separated each scaffold read depths into their own files and graphed the individial scaffold read depth. The scaffolds vary in size greatly, as can be seen in figure \ref{109avgcountgraph}. Shown below in figure \ref{wholescaffandhisto}are scaffolds 1 and 200 for strain Ar109 and the histograms of the read depths.
+	To take a birds eye view of the read depth for each scaffold, we separated each scaffold read depths into their own files and graphed the individual scaffold read depth. The scaffolds vary in size greatly, as can be seen in figure \ref{109avgcountgraph}. Shown below in figure \ref{wholescaffandhisto}are scaffolds 1 and 200 for strain Ar109 and the histograms of the read depths.
 
 \begin{figure}[H]
 	\begin{centering}
@@ -234,9 +234,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Assemblies}
-	The bam files which we were able to work with were created using reference based assembly, but the unaligned reads were stripped from the file. One of the experiments which we wanted to carry out was to create an assembly of the unaligned reads and to see how those 15 assemblies may have compared to eachother. In order to gain access to these reads we attempted new reference based assemblies using five of the 15 strains. Although these assemblies have been completed, they have not been analyzed yet due to time constraints.
+	The bam files which we were able to work with were created using reference based assembly, but the unaligned reads were stripped from the file. One of the experiments which we wanted to carry out was to create an assembly of the unaligned reads and to see how those 15 assemblies may have compared to each other. In order to gain access to these reads we attempted new reference based assemblies using five of the 15 strains. Although these assemblies have been completed, they have not been analyzed yet due to time constraints.
 
-	We also attempted de novo assemblies of five of the 15 fastq sequences we had. These de novo assemblies were carried out using Velvet and VelvetOptimiser, using default settings. Unfortunatly the results from these assemblies were of low quality. The largest contig was roughly 5000 bases and the total number of contigs was over 150,000. In the future we will attempt to determine why these de novo assemblies turned out so poorly.
+	We also attempted de novo assemblies of five of the 15 fastq sequences we had. These de novo assemblies were carried out using Velvet and VelvetOptimiser, using default settings. Unfortunately the results from these assemblies were of low quality. The largest contig was roughly 5000 bases and the total number of contigs was over 150,000. In the future we will attempt to determine why these de novo assemblies turned out so poorly.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -244,7 +244,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Sequence Identification With Blastn}
-	Making use of the identified regions of high read depth and the program which can extract sequences from the bam file we were able to use blastn to attempt to determine the function of the different notable sequences. Due to the high number of sequences we were only able to search a small fracton of the total, and the results from those searches were inconclusive. Nearly all of the sequences searched had no hits and the few that did were mainly mRNA sequences. We deteremined that there is a method to carry out multiple blastn searches quickly, although we have not yet been able to make the program needed for this function. When we can get this method working we will be able to carry out an automated blast search of any sequence we find interesting.   
+	Making use of the identified regions of high read depth and the program which can extract sequences from the bam file we were able to use blastn to attempt to determine the function of the different notable sequences. Due to the high number of sequences we were only able to search a small fraction of the total, and the results from those searches were inconclusive. Nearly all of the sequences searched had no hits and the few that did were mainly mRNA sequences. We determined that there is a method to carry out multiple blastn searches quickly, although we have not yet been able to make the program needed for this function. When we can get this method working we will be able to carry out an automated blast search of any sequence we find interesting.   
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -252,7 +252,7 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{RNA Verification of Blast Method}
-	Due to the low number of sinificant blast results, we attempted to very this method of search by attempting to find a sequence which we know to be present in \textit{Armillaria Gallica}. Specifically we obtained a partial 18S rRNA sequence for the fungus \textit{Aspergillus niger} that was roughly 1700 nucltotides long, and blasted that sequence against the reference genome for \textit{Armillaria Gallica} on the joint Genome Institue Fungal Genomics Resource website. This blast returned a hit for a small region on scaffold 10 (scaffold 10:994951-995150), although this region was only 199 nucltodies in length. When we searched for this region in our scaffold snapshot graphs we were able to find that it was identified as a region of notable read depth by our system. The read depth snapshot for this range is shown in figure \ref{rdsnp18Srrna}. The total ribosomal DNA for \textit{Armillaria Gallica} should be larger than 10kb although and the 18S subunit should be larger than 3kb. We did complete a search for the entire ribosomal DNA sequence but the best we could find was a partial 28S sequence and a partial 18S/28S sequence which when blasting against the reference we found no matches. A portion of individual 28S subunit could be verified in the same method as used for the 18S subunit, but the larger 18S/28S gene could not be found. We suspect that the reference does not include the whole ribosomal DNA sequence and it may be that the ribosomal sequences present in the 15 strains of \textit{Armillaria Gallica} are contained in the unalinged reads. 
+	Due to the low number of significant blast results, we attempted to very this method of search by attempting to find a sequence which we know to be present in \textit{Armillaria Gallica}. Specifically we obtained a partial 18S rRNA sequence for the fungus \textit{Aspergillus niger} that was roughly 1700 nucleotides long, and blasted that sequence against the reference genome for \textit{Armillaria Gallica} on the joint Genome Institute Fungal Genomics Resource website. This blast returned a hit for a small region on scaffold 10 (scaffold 10:994951-995150), although this region was only 199 nucleotides in length. When we searched for this region in our scaffold snapshot graphs we were able to find that it was identified as a region of notable read depth by our system. The read depth snapshot for this range is shown in figure \ref{rdsnp18Srrna}. The total ribosomal DNA for \textit{Armillaria Gallica} should be larger than 10kb although and the 18S subunit should be larger than 3kb. We did complete a search for the entire ribosomal DNA sequence but the best we could find was a partial 28S sequence and a partial 18S/28S sequence which when blasting against the reference we found no matches. A portion of individual 28S subunit could be verified in the same method as used for the 18S subunit, but the larger 18S/28S gene could not be found. We suspect that the reference does not include the whole ribosomal DNA sequence and it may be that the ribosomal sequences present in the 15 strains of \textit{Armillaria Gallica} are contained in the unaligned reads. 
       \begin{figure}[H]
 	\begin{centering}
 \resizebox{50mm}{50mm}{\includegraphics[angle=0,width=1.0\linewidth]{/home/thomas/Directed_Studies_Summer_2019/Armillaria_gallica_gene_analysis_tools/Reporting_documents/Figures/read_depth_snapshot_images/433_Ar109_read_depth.pdf}}
@@ -295,3 +295,5 @@
 \end{itemize}
 
 \end{document}
+
+
